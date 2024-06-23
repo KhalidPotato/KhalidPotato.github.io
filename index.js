@@ -2,6 +2,7 @@ const cardContainer = document.querySelector(".card-container");
 const ticketButton = document.getElementById("ticket-button");
 const keyButton = document.getElementById("key-button");
 const coinButton = document.getElementById("coin-button");
+const caseBuxButton = document.getElementById("case-bux-button");
 const demandButton = document.getElementById("demand-button");
 const copiesButton = document.getElementById("copies-button");
 const nameButton = document.getElementById("name-button");
@@ -15,7 +16,7 @@ async function fetchData() {
     const cardData = await response.json();
     return cardData;
   } catch (error) {
-    console.error("Error fetching JSON:", error);
+    console.error("Error searching for your Dad:", error);
   }
 }
 
@@ -44,79 +45,72 @@ function createCard(data) {
     if (data.values[value] != "-" && data.values[value] != 0) {
       const valueText = document.createElement("p");
       valueText.textContent = `${
-        value.charAt(0).toUpperCase() + value.slice(1).toLowerCase()
-      }: ${commaify(data.values[value])}`;
+        value.charAt(0).toUpperCase() + value.slice(1)
+      }: ${
+        typeof data.values[value] == "number"
+          ? commaify(data.values[value])
+          : data.values[value]
+      }`;
       values.appendChild(valueText);
-    }
-  }
+      }
+      }
 
-  const copies = document.createElement("p");
-  copies.textContent = `COPIES: ${commaify(data.copies)}`;
-  card.appendChild(copies);
+      const copies = document.createElement("p");
+      copies.textContent = `COPIES: ${commaify(data.copies)}`;
+      card.appendChild(copies);
 
-  const rarity = document.createElement("p");
-  rarity.textContent = `DEMAND: ${data.demand[0]}/${
-    data.demand[1] ? data.demand[1] : "10"
-  }`;
-  card.appendChild(rarity);
+      const demand = document.createElement("p");
+      demand.textContent = `DEMAND: ${data.demand[0]}/${data.demand[1] ? data.demand[1] : "10"}`;
+      card.appendChild(demand);
 
-  return card;
-}
+      cardContainer.appendChild(card);
+      }
 
-(async () => {
-  const cardData = await fetchData();
-  if (!cardData) return;
+      async function initializeCards() {
+      cardContainer.innerHTML = "";
+      const cardData = await fetchData();
+      cardData.forEach((data) => {
+      createCard(data);
+      });
+      }
 
-  function reorder(func) {
-    cardContainer.innerHTML = "";
-    cardData.sort(func);
+      function sortItems(criteria) {
+      cardContainer.innerHTML = "";
+      fetchData().then((cardData) => {
+      cardData.sort((a, b) => {
+      if (typeof a.values[criteria] === "string") {
+        return a.values[criteria].localeCompare(b.values[criteria]);
+      } else {
+        return a.values[criteria] - b.values[criteria];
+      }
+      });
+      cardData.forEach((data) => {
+      createCard(data);
+      });
+      });
+      }
 
-    cardData.forEach(function (card) {
-      const cardElement = createCard(card);
-      cardContainer.appendChild(cardElement);
-    });
-  }
+      function searchItems() {
+      const searchText = searchInput.value.toLowerCase();
+      cardContainer.innerHTML = "";
+      fetchData().then((cardData) => {
+      const filteredData = cardData.filter((data) =>
+      data.name.toLowerCase().includes(searchText)
+      );
+      filteredData.forEach((data) => {
+      createCard(data);
+      });
+      });
+      }
 
-  function sortByValue(v) {
-    function compare(a, b) {
-      if (!b.values[v] || !a.values[v])
-        return b.values[v] ? b.values[v] : 0 - a.values[v] ? a.values[v] : 0;
-      else if (a.values[v] === "O/C" && b.values[v] !== "O/C") return -1;
-      else if (a.values[v] !== "O/C" && b.values[v] === "O/C") return 1;
-      else if (a.values[v] === "O/C" && b.values[v] === "O/C")
-        return a.copies - b.copies;
-      else return b.values[v] - a.values[v];
-    }
+      searchInput.addEventListener("input", searchItems);
 
-    reorder(compare);
-  }
+      ticketButton.addEventListener("click", () => sortItems("tickets"));
+      keyButton.addEventListener("click", () => sortItems("keys"));
+      coinButton.addEventListener("click", () => sortItems("coins"));
+      caseBuxButton.addEventListener("click", () => sortItems("case-bux"));
+      demandButton.addEventListener("click", () => sortItems("demand"));
+      copiesButton.addEventListener("click", () => sortItems("copies"));
+      nameButton.addEventListener("click", () => sortItems("name"));
 
-  const sortByDemand = () =>
-    reorder(
-      (a, b) =>
-        b.demand[0] / (b.demand[1] ? b.demand[1] : 10) -
-        a.demand[0] / (a.demand[1] ? a.demand[1] : 10)
-    );
-  const sortByCopies = () => reorder((a, b) => b.copies - a.copies);
-  const sortByName = () => reorder((a, b) => a.name.localeCompare(b.name));
-
-  const search = () => {
-    const searchTerm = searchInput.value.toLowerCase();
-    const filteredData = cardData.filter((card) =>
-      card.name.toLowerCase().includes(searchTerm)
-    );
-
-    cardContainer.innerHTML = "";
-    filteredData.forEach((card) => cardContainer.appendChild(createCard(card)));
-  };
-
-  ticketButton.addEventListener("click", () => sortByValue("tickets"));
-  keyButton.addEventListener("click", () => sortByValue("keys"));
-  coinButton.addEventListener("click", () => sortByValue("coins"));
-  demandButton.addEventListener("click", sortByDemand);
-  copiesButton.addEventListener("click", sortByCopies);
-  nameButton.addEventListener("click", sortByName);
-  searchInput.addEventListener("input", search);
-
-  sortByCopies();
-})();
+      window.addEventListener("DOMContentLoaded", initializeCards);
