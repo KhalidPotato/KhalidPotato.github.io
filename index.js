@@ -64,50 +64,7 @@ function createCard(data) {
 }
 
 (async () => {
-  const cardData = [
-    {
-      name: "carot",
-      copies: 20,
-      demand: [6, 10],
-      image: "./image.png",
-      values: {
-        tickets: 50,
-        keys: 15,
-        coins: 80,
-      },
-    },
-    {
-      name: "cooler carot",
-      copies: 10,
-      demand: [10, 10],
-      image: "./image.png",
-      values: {
-        tickets: 30,
-        keys: 40,
-        coins: 240,
-      },
-    },
-    {
-      name: "buh, stupid carot!",
-      copies: 1999,
-      demand: [1, 10],
-      image: "./carot.png",
-      values: {
-        tickets: 2,
-      },
-    },
-    {
-      name: "OMG ULTIMATE CAROT 🤤",
-      copies: 1,
-      demand: [100, 1],
-      image: "./RARECAROT.png",
-      values: {
-        tickets: 9999,
-        keys: 999999,
-        coins: "O/C",
-      },
-    },
-  ]; //await fetchData();
+  const cardData = await fetchData();
   if (!cardData) return;
 
   function reorder(func) {
