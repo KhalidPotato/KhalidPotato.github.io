@@ -4,8 +4,8 @@ body {
     padding: 0;
     background-color: #1f1f1f;
     color: #fff;
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
@@ -84,10 +84,9 @@ body::-webkit-scrollbar {
 
 .card-controls {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 10vw;
+    gap: 1rem;
 }
 
 .order-buttons {
@@ -122,6 +121,11 @@ body::-webkit-scrollbar {
     transform: scale(0.7);
 }
 
+.order-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
 .oc-note {
     margin-right: 10px;
     color: #fff;
@@ -138,6 +142,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     background-color: #2E2E2E;
     box-sizing: 2px 2px 5px #0D0D0D;
+    margin-bottom: 1rem;
 }
 
 .search-bar input[type="text"] {
@@ -162,6 +167,7 @@ body::-webkit-scrollbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    transition: all 0.5s;
 }
 
 .card {
@@ -173,6 +179,11 @@ body::-webkit-scrollbar {
     border-radius: 20px;
     background-color: #2f2f2f;
     color: #fff;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .value {
