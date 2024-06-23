@@ -1,11 +1,11 @@
 [
     {
         "name": "carot",
-        "copies": 5,
+        "copies": 7,
         "demand": [6, 10],
         "image": "./image.png",
         "values": {
-            "tickets": 1,
+            "tickets": 4,
             "keys": 2,
             "coins": 3,
             "case-bux": 4
@@ -31,12 +31,12 @@
         "values": {
             "tickets": 1,
             "keys": 2,
-            "coins": 3,
+            "coins": 6,
             "case-bux": 4
         }
     },
     {
-        "name": "OMG ULTIMATE CAROT 🤤",
+        "name": "noobercarrot",
         "copies": 5,
         "demand": [6, 10],
         "image": "./RARECAROT.png",
@@ -44,7 +44,7 @@
             "tickets": 1,
             "keys": 2,
             "coins": 3,
-            "case-bux": 4
+            "case-bux": 8
         }
     }
 ]
