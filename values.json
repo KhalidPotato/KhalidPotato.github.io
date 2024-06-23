@@ -3,7 +3,7 @@
         "name": "carot",
         "copies": 20,
         "demand": [6, 10],
-		"image": "./image.png",
+        "image": "./image.png",
         "values": {
             "tickets": 50,
             "keys": 15,
@@ -14,7 +14,7 @@
         "name": "cooler carot",
         "copies": 10,
         "demand": [10, 10],
-		"image": "./image.png",
+        "image": "./image.png",
         "values": {
             "tickets": 90,
             "keys": 40,
@@ -25,7 +25,7 @@
         "name": "buh, stupid carot!",
         "copies": 1999,
         "demand": [1, 10],
-		"image": "./carot.png",
+        "image": "./carot.png",
         "values": {
             "tickets": 2
         }
@@ -34,7 +34,7 @@
         "name": "OMG ULTIMATE CAROT",
         "copies": 1,
         "demand": [100, 1],
-		"image": "./RARECAROT.png",
+        "image": "./RARECAROT.png",
         "values": {
             "tickets": 9999,
             "keys": 999999,
