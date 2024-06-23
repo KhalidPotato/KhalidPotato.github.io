@@ -3,8 +3,9 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;family=Titan+One&amp;display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;family=Titan+One&amp;display=swap"
+        rel="stylesheet">
+
     <link rel="icon" href="./logo.png" type="image/svg+xml">
     <title>Value List</title>
 </head>
@@ -21,28 +22,29 @@
         </div>
     </div>
 
+    <div class="card-controls">
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search...">
+        </div>
+
+        <div class="order-buttons">
+            <p>Sort by:</p>
+            <button id="ticket-button" class="order-button">TICKETS</button>
+            <button id="key-button" class="order-button">KEYS</button>
+            <button id="coin-button" class="order-button">COINS</button>
+            <button id="case-bux-button" class="order-button">CASE-BUX</button>
+            <button id="copies-button" class="order-button">COPIES</button>
+            <button id="demand-button" class="order-button">DEMAND</button>
+            <button id="name-button" class="order-button">NAME</button>
+        </div>
+    </div>
+
+    <p class="oc-note">(O/C : Owner's Choice)</p>
+
     <div class="alert">
         <p><strong>WARNING:</strong> All values and copies are estimates and may not be Accurate!</p>
     </div>
 
-    <div class="card-controls">
-        <div class="order-buttons">
-            <p>Order by:</p>
-            <button id="ticket-button" class="order-button">TICKETS</button>
-            <button id="key-button" class="order-button">KEYS</button>
-            <button id="coin-button" class="order-button">COINS</button>
-            <button id="demand-button" class="order-button">DEMAND</button>
-            <button id="copies-button" class="order-button">COPIES</button>
-            <button id="name-button" class="order-button">NAME</button>
-            <br>
-        </div>
-
-        <div class="search-bar">
-            <input type="text" id="search-input" placeholder="Search...">
-        </div>
-    </div>
-    <p class="oc-note">(O/C : Owner's Choice)</p>
- 
     <div class="card-container"></div>
 
     <script src="index.js"></script>
