@@ -87,7 +87,7 @@
         "name": "Withered Rose",
         "copies": "N/A",
         "demand": [7, 10],
-        "image": "./WitheredRose.webp",
+        "image": "./WitheredRose.png",
         "values": {
             "tickets": "50",
             "keys": "25",
