@@ -55,13 +55,13 @@ body {
   background-color: rgba(52, 53, 65, var(--tw-bg-opacity));
   padding: 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .header-content {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-content h1 {
@@ -69,13 +69,9 @@ body {
   font-size: 4em;
 }
 
-.header p {
-  margin: 7px 0;
-  font-size: 1.3rem;
-}
-
 .header-img {
   height: 20vh;
+  margin-right: 20px;
 }
 
 .alert {
@@ -196,6 +192,7 @@ body {
 
 .card:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .value {
@@ -207,6 +204,10 @@ body {
   border-radius: 20px;
   background-color: #4e4d4d;
   color: #fff;
+}
+
+.value:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
