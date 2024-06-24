@@ -56,22 +56,24 @@ body {
   padding: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .header-content {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 10px;
 }
 
 .header-content h1 {
   margin: 0;
   font-size: 4em;
+  color: #fff;
 }
 
 .header-img {
-  height: 20vh;
-  margin-right: 20px;
+  height: 10vh;
+  margin-bottom: 10px;
 }
 
 .alert {
@@ -95,48 +97,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-}
-
-.order-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.order-buttons p {
-  font-size: 3vh;
-  margin-right: 7px;
-}
-
-.order-button {
-  padding: 5px 30px;
-  margin: 0 5px;
-  background-color: #2E2E2E;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px #0D0D0D;
-  border: 1px solid white;
-  color: white;
-  font-family: 'Nunito';
-  font-weight: 800;
-  height: 6.5vh;
-  transition: 0.25s;
-}
-
-.order-button:active {
-  background-color: #464646;
-  box-shadow: 1px 3px 5px #2E2E2E;
-  transform: scale(0.7);
-}
-
-.order-button:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s;
-}
-
-.oc-note {
-  margin-right: 10px;
-  color: #fff;
-  text-align: center;
+  margin-top: 1rem;
 }
 
 .search-bar {
@@ -167,8 +128,48 @@ body {
   outline: none;
 }
 
-::placeholder {
-  color: #BDBDBD;
+.order-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-buttons p {
+  font-size: 24px;
+  margin-right: 7px;
+  color: #fff;
+}
+
+.order-button {
+  padding: 5px 30px;
+  margin: 0 5px;
+  background-color: #2E2E2E;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #0D0D0D;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Nunito';
+  font-weight: 800;
+  height: 6.5vh;
+  transition: 0.25s;
+}
+
+.order-button:active {
+  background-color: #464646;
+  box-shadow: 1px 3px 5px #2E2E2E;
+  transform: scale(0.7);
+}
+
+.order-button:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.oc-note {
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
 }
 
 .card-container {
@@ -232,4 +233,11 @@ body {
 .card a {
   text-decoration: none;
   color: #fff;
+}
+
+.card-controls p {
+  color: #BDBDBD;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
 }
