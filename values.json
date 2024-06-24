@@ -84,39 +84,39 @@
         }
     },
         {
-        "name": "Ticket",
+        "name": "Withered Rose",
         "copies": "N/A",
-        "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "demand": [7, 10],
+        "image": "./WitheredRose.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "coins": "N/A",
+            "tickets": "50",
+            "keys": "25",
+            "coins": "5",
             "case-bux": "N/A"
         }
     },
         {
-        "name": "Ticket",
+        "name": "Khaotix",
         "copies": "N/A",
-        "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "demand": [3, 10],
+        "image": "./Khaotix.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": "64",
+            "keys": "35",
+            "coins": "15",
+            "case-bux": "15"
         }
     },
     {
-        "name": "Ticket",
+        "name": "Nomi's Flower",
         "copies": "N/A",
-        "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "demand": [1, 10],
+        "image": "./NomisFlower.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
         }
     },
         {
