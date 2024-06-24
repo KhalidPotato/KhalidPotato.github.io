@@ -17,8 +17,8 @@
         "demand": [10, 10],
         "image": "./Steak.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
+            "tickets": 2,
+            "keys": "1",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -29,8 +29,8 @@
         "demand": [10, 10],
         "image": "./Egg.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
+            "tickets": 5,
+            "keys": "2",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -41,8 +41,8 @@
         "demand": [10, 10],
         "image": "./Key.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
+            "tickets": 2,
+            "keys": "1",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -53,8 +53,8 @@
         "demand": [10, 10],
         "image": "./GoldenCarrot.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
+            "tickets": 3,
+            "keys": "1",
             "coins": "N/A",
             "case-bux": "N/A"
         }
