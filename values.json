@@ -1,14 +1,14 @@
 [
     {
-        "name": "carot",
-        "copies": 7,
-        "demand": [6, 10],
-        "image": "./image.png",
+        "name": "Ticket",
+        "copies": N/A,
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
         "values": {
-            "tickets": 4,
-            "keys": 2,
-            "coins": 3,
-            "case-bux": 4
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
         }
     },
     {
