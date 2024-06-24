@@ -105,12 +105,12 @@ function createCard(data) {
 
       searchInput.addEventListener("input", searchItems);
 
+      nameButton.addEventListener("click", () => sortItems("name"));
       ticketButton.addEventListener("click", () => sortItems("tickets"));
       keyButton.addEventListener("click", () => sortItems("keys"));
       coinButton.addEventListener("click", () => sortItems("coins"));
       caseBuxButton.addEventListener("click", () => sortItems("case-bux"));
       demandButton.addEventListener("click", () => sortItems("demand"));
       copiesButton.addEventListener("click", () => sortItems("copies"));
-      nameButton.addEventListener("click", () => sortItems("name"));
 
       window.addEventListener("DOMContentLoaded", initializeCards);
