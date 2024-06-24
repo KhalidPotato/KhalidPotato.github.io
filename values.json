@@ -12,39 +12,135 @@
         }
     },
     {
-        "name": "cooler carot",
-        "copies": 5,
-        "demand": [6, 10],
-        "image": "./image.png",
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
         "values": {
             "tickets": 1,
-            "keys": 2,
-            "coins": 3,
-            "case-bux": 4
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
         }
     },
     {
-        "name": "buh, stupid carot!",
-        "copies": 5,
-        "demand": [6, 10],
-        "image": "./carot.png",
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
         "values": {
             "tickets": 1,
-            "keys": 2,
-            "coins": 6,
-            "case-bux": 4
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
         }
     },
     {
-        "name": "noobercarrot",
-        "copies": 5,
-        "demand": [6, 10],
-        "image": "./RARECAROT.png",
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
         "values": {
             "tickets": 1,
-            "keys": 2,
-            "coins": 3,
-            "case-bux": 8
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+    {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
         }
     }
 ]
