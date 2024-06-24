@@ -1,238 +1,243 @@
 body {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1f1f1f;
-    color: #fff;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+  color: #fff;
+  cursor: url('./Cursor.webp'), auto;
 }
 
 body {
-    scrollbar-width: none;
+  scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #1f1f1f;
+  background: #1f1f1f;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
+  background: #888;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }
 
 .outerbackground {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: #4f4f4f;
-    overflow: hidden;
-    z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #4f4f4f;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .background {
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    top: 50%;
-    left: 50%;
-    background-size: 550px;
-    background-position: -100px -100px;
-    opacity: 0.1;
-    transform: translate(-50%, -50%) rotate(15deg);
-    background-image: url('./background.jpg');
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 50%;
+  left: 50%;
+  background-size: 550px;
+  background-position: -100px -100px;
+  opacity: 0.1;
+  transform: translate(-50%, -50%) rotate(15deg);
+  background-image: url('./background.jpg');
 }
 
 .header {
-    background-color: rgba(52, 53, 65, var(--tw-bg-opacity));
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 10vw;
-    justify-content: center;
+  background-color: rgba(52, 53, 65, var(--tw-bg-opacity));
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10vw;
+  justify-content: center;
 }
 
 .header-content h1 {
-    margin: 0;
-    font-size: 4em;
+  margin: 0;
+  font-size: 4em;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header p {
-    margin: 7px 0;
-    font-size: 1.3rem;
+  margin: 7px 0;
+  font-size: 1.3rem;
 }
 
 .header-img {
-    height: 20vh;
+  height: 20vh;
 }
 
 .header-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .alert {
-    background-color: #9D8317;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 10px;
-    border-radius: 100px;
+  background-color: #9D8317;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  border-radius: 100px;
 }
 
 .alert p {
-    margin-right: 10px;
-    color: #ffffff;
+  margin-right: 10px;
+  color: #ffffff;
 }
 
 .card-controls {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .order-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .order-buttons p {
-    font-size: 3vh;
-    margin-right: 7px;
+  font-size: 3vh;
+  margin-right: 7px;
 }
 
 .order-button {
-    padding: 5px 30px;
-    margin: 0 5px;
-    background-color: #2E2E2E;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px #0D0D0D;
-    border: 1px solid white;
-    color: white;
-    font-family: 'Nunito';
-    font-weight: 800;
-    height: 6.5vh;
-    transition: 0.25s;
-    cursor: pointer;
+  padding: 5px 30px;
+  margin: 0 5px;
+  background-color: #2E2E2E;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #0D0D0D;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Nunito';
+  font-weight: 800;
+  height: 6.5vh;
+  transition: 0.25s;
+  cursor: url('./Pointer.webp'), pointer;
 }
 
 .order-button:active {
-    background-color: #464646;
-    box-shadow: 1px 3px 5px #2E2E2E;
-    transform: scale(0.7);
+  background-color: #464646;
+  box-shadow: 1px 3px 5px #2E2E2E;
+  transform: scale(0.7);
 }
 
 .order-button:hover {
-    transform: scale(1.1);
-    transition: transform 0.2s;
+  transform: scale(1.1);
+  transition: transform 0.2s;
 }
 
 .oc-note {
-    margin-right: 10px;
-    color: #fff;
-    text-align: center;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
 }
 
 .search-bar {
-    border: 1px solid white;
-    border-radius: 10px;
-    width: 30vw;
-    text-align: center;
-    display: flex;
-    height: 6.5vh;
-    justify-content: center;
-    background-color: #2E2E2E;
-    box-sizing: 2px 2px 5px #0D0D0D;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 30vw;
+  text-align: center;
+  display: flex;
+  height: 6.5vh;
+  justify-content: center;
+  background-color: #2E2E2E;
+  box-sizing: 2px 2px 5px #0D0D0D;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .search-bar input[type="text"] {
-    background: transparent;
-    text-align: center;
-    color: white;
-    border: none;
-    width: 100%;
-    font-family: 'Nunito';
-    font-size: 3vh;
+  background: transparent;
+  text-align: center;
+  color: white;
+  border: none;
+  width: 100%;
+  font-family: 'Nunito';
+  font-size: 3vh;
 }
 
 .search-bar input[type="text"]:focus {
-    outline: none;
+  outline: none;
 }
 
 ::placeholder {
-    color: #BDBDBD;
+  color: #BDBDBD;
 }
 
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    transition: all 0.5s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all 0.5s;
 }
 
 .card {
-    width: 300px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #7C7C7C;
-    border-radius: 20px;
-    background-color: #2f2f2f;
-    color: #fff;
-    transition: transform 0.3s, opacity 0.3s;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #7C7C7C;
+  border-radius: 20px;
+  background-color: #2f2f2f;
+  color: #fff;
+  transition: transform 0.3s, opacity 0.3s;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .value {
-    width: 250px;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-    border: 2px solid #7C7C7C;
-    border-radius: 20px;
-    background-color: #4e4d4d;
-    color: #fff;
+  width: 250px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #7C7C7C;
+  border-radius: 20px;
+  background-color: #4e4d4d;
+  color: #fff;
 }
 
 .card img {
-    width: 80px;
-    height: 90px;
-    border-radius: 5px;
-    margin-top: 7px;
-    margin-bottom: 10px;
+  width: 80px;
+  height: 90px;
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-bottom: 10px;
 }
 
 .card h2 {
-    margin: 0;
-    font-family: 'Titan One';
-    font-weight: 100;
+  margin: 0;
+  font-family: 'Titan One';
+  font-weight: 100;
 }
 
 .card p {
-    font-weight: bold;
-    margin: 10px 0;
+  font-weight: bold;
+  margin: 10px 0;
 }
 
 .card a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
