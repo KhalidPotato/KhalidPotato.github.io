@@ -159,7 +159,7 @@
         "name": "Poison 'D' Potat",
         "copies": "N/A",
         "demand": [10, 10],
-        "image": "./Poisoned.webp",
+        "image": "./Poisoned.gif",
         "values": {
             "tickets": "",
             "keys": "O/C",
