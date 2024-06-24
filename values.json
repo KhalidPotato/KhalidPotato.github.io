@@ -15,7 +15,7 @@
         "name": "Steak",
         "copies": "N/A",
         "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "image": "./Steak.webp",
         "values": {
             "tickets": 1,
             "keys": "N/A",
@@ -27,7 +27,7 @@
         "name": "Egg",
         "copies": "N/A",
         "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "image": "./Egg.webp",
         "values": {
             "tickets": 1,
             "keys": "N/A",
@@ -39,7 +39,7 @@
         "name": "Key",
         "copies": "N/A",
         "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "image": "./Key.webp",
         "values": {
             "tickets": 1,
             "keys": "N/A",
@@ -51,7 +51,7 @@
         "name": "Golden Carrot",
         "copies": "N/A",
         "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "image": "./GoldenCarrot.webp",
         "values": {
             "tickets": 1,
             "keys": "N/A",
