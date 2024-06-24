@@ -60,27 +60,27 @@
         }
     },
     {
-        "name": "Ticket",
+        "name": "Pro Voucher",
         "copies": "N/A",
-        "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "demand": [2, 10],
+        "image": "./ProVoucher.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
         }
     },
     {
-        "name": "Ticket",
+        "name": "Master Voucher",
         "copies": "N/A",
-        "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "demand": [5, 10],
+        "image": "./ProVoucher.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
         }
     },
         {
