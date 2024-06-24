@@ -1,51 +1,40 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;family=Titan+One&amp;display=swap"
-        rel="stylesheet">
-
-    <link rel="icon" href="./logo.png" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evb0 Value List</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
     <div class="outerbackground">
         <div class="background"></div>
     </div>
-
     <div class="header">
-        <img class="header-img" src="./logo.png">
         <div class="header-content">
+            <img src="logo.png" alt="Logo" class="header-img">
             <h1>Evb0 Value List</h1>
         </div>
     </div>
-
     <div class="alert">
-        <p><strong>WARNING:</strong> All values and copies are estimates and may not be Accurate!</p>
+        <p>Alert: Some important information</p>
     </div>
-
     <div class="card-controls">
-        <div class="search-bar">
-            <input type="text" id="search-input" placeholder="Search for an Item...">
-        </div>
         <div class="order-buttons">
-            <p>Sort by:</p>
-            <button id="name-button" class="order-button">NAME</button>
-            <button id="ticket-button" class="order-button">TICKETS</button>
-            <button id="key-button" class="order-button">KEYS</button>
-            <button id="coin-button" class="order-button">COINS</button>
-            <button id="case-bux-button" class="order-button">CASE-BUX</button>
-            <button id="copies-button" class="order-button">COPIES</button>
-            <button id="demand-button" class="order-button">DEMAND</button>
+            <p>Order by:</p>
+            <button id="name-button" class="order-button">Name</button>
+            <button id="ticket-button" class="order-button">Tickets</button>
+            <button id="key-button" class="order-button">Keys</button>
+            <button id="coin-button" class="order-button">Coins</button>
+            <button id="case-bux-button" class="order-button">Case Bux</button>
+            <button id="demand-button" class="order-button">Demand</button>
+            <button id="copies-button" class="order-button">Copies</button>
         </div>
-        <p class="oc-na-note">(O/C : Owner's Choice & N/A: Not Available)</p>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search...">
+        </div>
     </div>
-
     <div class="card-container"></div>
-
     <script src="index.js"></script>
 </body>
-
 </html>
