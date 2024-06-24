@@ -23,6 +23,42 @@
             "case-bux": "N/A"
         }
     },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Ticket",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
     {
         "name": "Ticket",
         "copies": "N/A",
