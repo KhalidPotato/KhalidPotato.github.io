@@ -87,7 +87,7 @@
         "name": "Withered Rose",
         "copies": "N/A",
         "demand": [7, 10],
-        "image": "./WitheredRose.png",
+        "image": "./WitheredRose.webp",
         "values": {
             "tickets": "50",
             "keys": "25",
@@ -120,62 +120,62 @@
         }
     },
         {
-        "name": "Ticket",
+        "name": "Hammer",
         "copies": "N/A",
         "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "image": "./Hammer.webp",
         "values": {
-            "tickets": 1,
+            "tickets": "N/A",
             "keys": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
     },
         {
-        "name": "Ticket",
+        "name": "Potatosim Hoe",
         "copies": "N/A",
         "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "image": "./PotatosimHoe.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": "",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
         }
     },
         {
-        "name": "Ticket",
+        "name": "Potato",
         "copies": "N/A",
         "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "image": "./Potato.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": "",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
         }
     },
         {
-        "name": "Ticket",
+        "name": "Poison 'D' Potat",
         "copies": "N/A",
         "demand": [10, 10],
         "image": "./Ticket.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": "",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
         }
     },
         {
-        "name": "Ticket",
+        "name": "Slime Ball",
         "copies": "N/A",
         "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "image": "./SlimeBall.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "coins": "N/A",
+            "tickets": "O/C",
+            "keys": "64",
+            "coins": "20",
             "case-bux": "N/A"
         }
     }
