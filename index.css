@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #1f1f1f;
     color: #fff;
-    cursor: url('https://cdn.discordapp.com/attachments/980394668820946965/1254905415649464352/image.png?ex=667b313e&is=6679dfbe&hm=7074b4c3dfca9d1bea361fb48705ccd1fcb26fbb2e4576ddfb52a4e15e8840fb&'), auto;
+    cursor: url('https://cdn.discordapp.com/attachments/980394668820946965/1254905415649464352/image.png?ex=667b313e&is=6679dfbe&hm=7074b4c3dfca9d1bea361fb48705ccd1fcb26fbb2e4576ddfb52a4e15e8840fb'), auto;
 }
 
 body {
@@ -58,13 +58,15 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10vw;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .header-content h1 {
     margin: 0;
     font-size: 4em;
+    text-align: left;
+    width: 50%;
 }
 
 .header p {
@@ -204,7 +206,7 @@ body {
     transform: scale(1.05);
 }
 
-    .value {
+.value {
     width: 250px;
     margin: 10px;
     padding: 5px;
@@ -221,7 +223,6 @@ body {
     border-radius: 5px;
     margin-top: 7px;
     margin-bottom: 10px;
-    cursor: url('https://cdn.discordapp.com/attachments/980394668820946965/1254905451997565100/image.png?ex=667b3146&is=6679dfc6&hm=42616083d72050b7337ff43a5dac5cc50a2b6057d154582cbc4e74e91141a5a4&'), pointer;
 }
 
 .card h2 {
@@ -238,13 +239,4 @@ body {
 .card a {
     text-decoration: none;
     color: #fff;
-}
-
-.card-container .card {
-    transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
-}
-
-.card-container .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
