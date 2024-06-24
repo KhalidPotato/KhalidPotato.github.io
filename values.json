@@ -1,7 +1,7 @@
 [
     {
         "name": "Ticket",
-        "copies": N/A,
+        "copies": "N/A",
         "demand": [10, 10],
         "image": "./Ticket.webp",
         "values": {
