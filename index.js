@@ -110,7 +110,7 @@ function createCard(data) {
       keyButton.addEventListener("click", () => sortItems("keys"));
       coinButton.addEventListener("click", () => sortItems("coins"));
       caseBuxButton.addEventListener("click", () => sortItems("case-bux"));
-      demandButton.addEventListener("click", () => sortItems("demand"));
       copiesButton.addEventListener("click", () => sortItems("copies"));
+      demandButton.addEventListener("click", () => sortItems("demand"));
 
       window.addEventListener("DOMContentLoaded", initializeCards);
