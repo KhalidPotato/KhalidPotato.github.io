@@ -168,15 +168,28 @@
         }
     },
         {
-        "name": "Slime Ball",
+        "name": "Mega Ticket",
         "copies": "N/A",
         "demand": [2, 10],
-        "image": "./SlimeBall.webp",
+        "image": "./MegaTicket.webp",
         "values": {
-            "tickets": "O/C",
-            "keys": "64",
-            "coins": "30",
-            "case-bux": "3"
+            "tickets": "1",
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
         }
+    },
+        {
+        "name": "Ultra Ticket",
+        "copies": "N/A",
+        "demand": [3, 10],
+        "image": "./UltraTicket.webp",
+        "values": {
+            "tickets": "1",
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    }
     }
 ]
