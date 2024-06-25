@@ -168,6 +168,18 @@
         }
     },
         {
+        "name": "Fake Iron",
+        "copies": "1",
+        "demand": [5, 10],
+        "image": "./FakeIron.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+        {
         "name": "Mega Ticket",
         "copies": "N/A",
         "demand": [1, 10],
