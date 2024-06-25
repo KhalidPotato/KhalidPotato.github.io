@@ -170,7 +170,7 @@
         {
         "name": "Mega Ticket",
         "copies": "N/A",
-        "demand": [2, 10],
+        "demand": [1, 10],
         "image": "./MegaTicket.webp",
         "values": {
             "tickets": "1",
@@ -187,6 +187,30 @@
         "values": {
             "tickets": "1",
             "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+            {
+        "name": "Mega Key",
+        "copies": "N/A",
+        "demand": [2, 10],
+        "image": "./MegaKey.webp",
+        "values": {
+            "tickets": "2",
+            "keys": "1",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+            {
+        "name": "Ultra Key",
+        "copies": "N/A",
+        "demand": [7, 10],
+        "image": "./UltraKey.webp",
+        "values": {
+            "tickets": "2",
+            "keys": "1",
             "coins": "N/A",
             "case-bux": "N/A"
         }
