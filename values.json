@@ -170,7 +170,7 @@
     },
         {
         "name": "Slime Ball",
-        "copies": "5",
+        "copies": "10",
         "demand": [3, 10],
         "image": "./SlimeBall.webp",
         "values": {
