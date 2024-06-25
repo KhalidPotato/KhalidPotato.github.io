@@ -167,10 +167,23 @@
             "case-bux": "O/C"
         }
     },
+    },
+        {
+        "name": "Slime Ball",
+        "copies": "5",
+        "demand": [3, 10],
+        "image": "./SlimeBall.webp",
+        "values": {
+            "tickets": "300",
+            "keys": "100",
+            "coins": "30",
+            "case-bux": "3"
+        }
+    },
         {
         "name": "Fake Iron",
         "copies": "1",
-        "demand": [5, 10],
+        "demand": [1, 10],
         "image": "./FakeIron.webp",
         "values": {
             "tickets": "O/C",
