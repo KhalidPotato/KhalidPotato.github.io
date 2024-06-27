@@ -98,7 +98,7 @@
         {
         "name": "Khaotix",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [4, 10],
         "image": "./Khaotix.webp",
         "values": {
             "tickets": "50",
@@ -170,7 +170,7 @@
         {
         "name": "Slime Ball",
         "copies": "10",
-        "demand": [3, 10],
+        "demand": [2, 10],
         "image": "./SlimeBall.webp",
         "values": {
             "tickets": "300",
