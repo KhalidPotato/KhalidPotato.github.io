@@ -26,7 +26,7 @@
         {
         "name": "Egg",
         "copies": "N/A",
-        "demand": [8, 10],
+        "demand": [6, 10],
         "image": "./Egg.webp",
         "values": {
             "tickets": 5,
