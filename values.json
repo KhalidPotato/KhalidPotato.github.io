@@ -239,11 +239,23 @@
             "case-bux": "N/A"
         }
     },
-                {
-        "name": "Portugese Knife Fight ",
+                    {
+        "name": "Azreal's Dagger",
         "copies": "N/A",
         "demand": [5, 10],
-        "image": "./IronEnchant.webp",
+        "image": "./IronSword.webp",
+        "values": {
+            "tickets": "40",
+            "keys": "25",
+            "coins": "10",
+            "case-bux": "1"
+        }
+    },
+                {
+        "name": "Portugese Knife Fight",
+        "copies": "N/A",
+        "demand": [6, 10],
+        "image": "./IronEnchant.gif",
         "values": {
             "tickets": "25",
             "keys": "15",
