@@ -238,5 +238,17 @@
             "coins": "N/A",
             "case-bux": "N/A"
         }
+    },
+                {
+        "name": "Portugese Knife Fight ",
+        "copies": "N/A",
+        "demand": [5, 10],
+        "image": "./IronEnchant.webp",
+        "values": {
+            "tickets": "25",
+            "keys": "15",
+            "coins": "5",
+            "case-bux": "N/A"
+        }
     }
 ]
