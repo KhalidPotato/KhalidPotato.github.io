@@ -242,7 +242,7 @@
                     {
         "name": "Azreal's Dagger",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [4, 10],
         "image": "./IronSword.webp",
         "values": {
             "tickets": "40",
