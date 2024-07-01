@@ -262,5 +262,41 @@
             "coins": "5",
             "case-bux": "N/A"
         }
+    },
+                    {
+        "name": "Sugar Cookie",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./SugarCookie.gif",
+        "values": {
+            "tickets": "O/C",
+            "keys": "200",
+            "coins": "80",
+            "case-bux": "8"
+        }
+    },
+                    {
+        "name": "Brush",
+        "copies": "N/A",
+        "demand": [9, 10],
+        "image": "./Brush.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "235",
+            "coins": "80",
+            "case-bux": "12"
+        }
+    },
+                    {
+        "name": "Water Bottle",
+        "copies": "N/A",
+        "demand": [5, 10],
+        "image": "./WaterBottle.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "222",
+            "coins": "80",
+            "case-bux": "10"
+        }
     }
 ]
