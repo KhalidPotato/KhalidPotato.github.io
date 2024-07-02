@@ -298,5 +298,77 @@
             "coins": "80",
             "case-bux": "10"
         }
+    },
+                        {
+        "name": "Banjo",
+        "copies": "N/A",
+        "demand": [3, 10],
+        "image": "./Banjo.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "2000",
+            "case-bux": "200"
+        }
+    },
+                            {
+        "name": "Stockcoin",
+        "copies": "N/A",
+        "demand": [7, 10],
+        "image": "./Stockcoin.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "Increases every Purchase.",
+            "case-bux": "O/C"
+        }
+    },
+                                {
+        "name": "Saddle",
+        "copies": "N/A",
+        "demand": [2, 10],
+        "image": "./Saddle.webp",
+        "values": {
+            "tickets": "450",
+            "keys": "256",
+            "coins": "100",
+            "case-bux": "10"
+        }
+    },
+                                    {
+        "name": "String",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./String.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+                                    {
+        "name": "Wheat Seed",
+        "copies": "N/A",
+        "demand": [3, 10],
+        "image": "./WheatSeed.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "600",
+            "coins": "450",
+            "case-bux": "45"
+        }
+    },
+                                        {
+        "name": "KFC Blessing",
+        "copies": "N/A",
+        "demand": [6, 10],
+        "image": "./Totem.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "1200",
+            "case-bux": "120"
+        }
     }
 ]
