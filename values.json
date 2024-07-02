@@ -61,7 +61,7 @@
     },
     {
         "name": "Pro Voucher",
-        "copies": "N/A",
+        "copies": "15",
         "demand": [2, 10],
         "image": "./ProVoucher.webp",
         "values": {
