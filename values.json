@@ -110,7 +110,7 @@
     {
         "name": "Nomi's Flower",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [3, 10],
         "image": "./NomisFlower.webp",
         "values": {
             "tickets": "O/C",
@@ -245,10 +245,10 @@
         "demand": [4, 10],
         "image": "./IronSword.webp",
         "values": {
-            "tickets": "100",
-            "keys": "50",
-            "coins": "10",
-            "case-bux": "1"
+            "tickets": "150",
+            "keys": "75",
+            "coins": "15",
+            "case-bux": "N/A"
         }
     },
                 {
@@ -257,10 +257,10 @@
         "demand": [5, 10],
         "image": "./IronEnchant.gif",
         "values": {
-            "tickets": "50",
-            "keys": "25",
-            "coins": "5",
-            "case-bux": "N/A"
+            "tickets": "100",
+            "keys": "50",
+            "coins": "10",
+            "case-bux": "1"
         }
     },
                     {
