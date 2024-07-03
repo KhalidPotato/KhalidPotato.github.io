@@ -52,65 +52,65 @@ function createCard(data) {
           : data.values[value]
       }`;
       values.appendChild(valueText);
-      }
-      }
+    }
+  }
 
-      const copies = document.createElement("p");
-      copies.textContent = `COPIES: ${commaify(data.copies)}`;
-      card.appendChild(copies);
+  const copies = document.createElement("p");
+  copies.textContent = `COPIES: ${commaify(data.copies)}`;
+  card.appendChild(copies);
 
-      const demand = document.createElement("p");
-      demand.textContent = `DEMAND: ${data.demand[0]}/${data.demand[1] ? data.demand[1] : "10"}`;
-      card.appendChild(demand);
+  const demand = document.createElement("p");
+  demand.textContent = `DEMAND: ${data.demand[0]}/${data.demand[1] ? data.demand[1] : "10"}`;
+  card.appendChild(demand);
 
-      cardContainer.appendChild(card);
-      }
+  cardContainer.appendChild(card);
+}
 
-      async function initializeCards() {
-      cardContainer.innerHTML = "";
-      const cardData = await fetchData();
-      cardData.forEach((data) => {
-      createCard(data);
-      });
-      }
+async function initializeCards() {
+  cardContainer.innerHTML = "";
+  const cardData = await fetchData();
+  cardData.forEach((data) => {
+    createCard(data);
+  });
+}
 
-      function sortItems(criteria) {
-      cardContainer.innerHTML = "";
-      fetchData().then((cardData) => {
-      cardData.sort((a, b) => {
+function sortItems(criteria) {
+  cardContainer.innerHTML = "";
+  fetchData().then((cardData) => {
+    cardData.sort((a, b) => {
       if (typeof a.values[criteria] === "string") {
         return a.values[criteria].localeCompare(b.values[criteria]);
       } else {
         return a.values[criteria] - b.values[criteria];
       }
-      });
-      cardData.forEach((data) => {
+    });
+    cardData.forEach((data) => {
       createCard(data);
-      });
-      });
-      }
+    });
+  });
+}
 
-      function searchItems() {
-      const searchText = searchInput.value.toLowerCase();
-      cardContainer.innerHTML = "";
-      fetchData().then((cardData) => {
-      const filteredData = cardData.filter((data) =>
+function searchItems() {
+  const searchText = searchInput.value.toLowerCase();
+  cardContainer.innerHTML = "";
+  fetchData().then((cardData) => {
+    const filteredData = cardData.filter((data) =>
       data.name.toLowerCase().includes(searchText)
-      );
-      filteredData.forEach((data) => {
+    );
+    filteredData.forEach((data) => {
       createCard(data);
-      });
-      });
-      }
+    });
+  });
+}
 
-      searchInput.addEventListener("input", searchItems);
+searchInput.addEventListener("input", searchItems);
 
-      nameButton.addEventListener("click", () => sortItems("name"));
-      ticketButton.addEventListener("click", () => sortItems("tickets"));
-      keyButton.addEventListener("click", () => sortItems("keys"));
-      coinButton.addEventListener("click", () => sortItems("coins"));
-      caseBuxButton.addEventListener("click", () => sortItems("case-bux"));
-      copiesButton.addEventListener("click", () => sortItems("copies"));
-      demandButton.addEventListener("click", () => sortItems("demand"));
+nameButton.addEventListener("click", () => sortItems("name"));
+ticketButton.addEventListener("click", () => sortItems("tickets"));
+keyButton.addEventListener("click", () => sortItems("keys"));
+coinButton.addEventListener("click", () => sortItems("coins"));
+caseBuxButton.addEventListener("click", () => sortItems("case-bux"));
+copiesButton.addEventListener("click", () => sortItems("copies"));
+demandButton.addEventListener("click", () => sortItems("demand"));
 
-      window.addEventListener("DOMContentLoaded", initializeCards);
+window.addEventListener("DOMContentLoaded", initializeCards);
