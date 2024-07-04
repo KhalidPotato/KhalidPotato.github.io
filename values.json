@@ -375,7 +375,7 @@
         "name": "Beetrout Stew",
         "copies": "N/A",
         "demand": [1, 10],
-        "image": "./Beat.webp",
+        "image": "./Beetrout Stew.webp",
         "values": {
             "tickets": "3",
             "keys": "2",
@@ -423,7 +423,7 @@
         "name": "Black Coffee",
         "copies": "N/A",
         "demand": [6, 10],
-        "image": "./Coffee.webp",
+        "image": "./BlackCoffee.webp",
         "values": {
             "tickets": "8",
             "keys": "4",
@@ -471,7 +471,7 @@
         "name": "Cocao Beans",
         "copies": "N/A",
         "demand": [1, 10],
-        "image": "./CocaoBeans.webp",
+        "image": "./CocoaBeans.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -507,7 +507,7 @@
         "name": "Raw Cod",
         "copies": "N/A",
         "demand": [5, 10],
-        "image": "./RawCode.webp",
+        "image": "./RawCod.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -543,7 +543,7 @@
         "name": "Brown Mushroom",
         "copies": "N/A",
         "demand": [1, 10],
-        "image": "./RedMushroom.webp",
+        "image": "./BrownMushroom.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
