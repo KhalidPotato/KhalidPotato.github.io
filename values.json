@@ -375,7 +375,7 @@
         "name": "Beetrout Stew",
         "copies": "N/A",
         "demand": [1, 10],
-        "image": "./Beetrout Stew.webp",
+        "image": "./BeetroutStew.webp",
         "values": {
             "tickets": "3",
             "keys": "2",
