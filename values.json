@@ -495,7 +495,7 @@
         "name": "Bowl",
         "copies": "N/A",
         "demand": [1, 10],
-        "image": "./Totem.webp",
+        "image": "./Bowl.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
