@@ -26,11 +26,11 @@
         {
         "name": "Egg",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [3, 10],
         "image": "./Egg.webp",
         "values": {
-            "tickets": 6,
-            "keys": "3",
+            "tickets": 4,
+            "keys": "2",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -348,6 +348,90 @@
         }
     },
                                     {
+        "name": "Vegetable Stew",
+        "copies": "N/A",
+        "demand": [2, 10],
+        "image": "./Vegetable.webp",
+        "values": {
+            "tickets": "3",
+            "keys": "2",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+                                        {
+        "name": "Kentucky Fried Chicken",
+        "copies": "N/A",
+        "demand": [6, 10],
+        "image": "./Fried.webp",
+        "values": {
+            "tickets": "3",
+            "keys": "2",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+                                        {
+        "name": "Beetrout Stew",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./Beat.webp",
+        "values": {
+            "tickets": "3",
+            "keys": "2",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+                                            {
+        "name": "Mushroom Stew",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./MushroomStew.webp",
+        "values": {
+            "tickets": "3",
+            "keys": "2",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+                                        {
+        "name": "Cooked Cod",
+        "copies": "N/A",
+        "demand": [4, 10],
+        "image": "./CookedCod.webp",
+        "values": {
+            "tickets": "3",
+            "keys": "2",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+                                            {
+        "name": "Hot Chocolate",
+        "copies": "N/A",
+        "demand": [7, 10],
+        "image": "./HotChocolate.webp",
+        "values": {
+            "tickets": "8",
+            "keys": "4",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+                                                {
+        "name": "Black Coffee",
+        "copies": "N/A",
+        "demand": [6, 10],
+        "image": "./Coffee.webp",
+        "values": {
+            "tickets": "8",
+            "keys": "4",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+                                    {
         "name": "Wheat Seed",
         "copies": "N/A",
         "demand": [3, 10],
@@ -357,6 +441,18 @@
             "keys": "O/C",
             "coins": "450",
             "case-bux": "45"
+        }
+    },
+                                    {
+        "name": "Cocaine",
+        "copies": "72",
+        "demand": [5, 10],
+        "image": "./Sugar.webp",
+        "values": {
+            "tickets": "128",
+            "keys": "64",
+            "coins": "12",
+            "case-bux": "N/A"
         }
     },
                                         {
@@ -369,6 +465,90 @@
             "keys": "O/C",
             "coins": "1200",
             "case-bux": "120"
+        }
+    },
+                                            {
+        "name": "Cocao Beans",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./CocaoBeans.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+                                            {
+        "name": "Lead",
+        "copies": "14",
+        "demand": [1, 10],
+        "image": "./Lead.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+                                                {
+        "name": "Bowl",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./Totem.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+                                                {
+        "name": "Raw Cod",
+        "copies": "N/A",
+        "demand": [5, 10],
+        "image": "./RawCode.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "850",
+            "case-bux": "85"
+        }
+    },
+                                                {
+        "name": "Tropical Fish",
+        "copies": "N/A",
+        "demand": [2, 10],
+        "image": "./TropicalFish.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+                                                {
+        "name": "Red Mushroom",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./RedMushroom.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+                                                    {
+        "name": "Brown Mushroom",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./RedMushroom.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
         }
     }
 ]
