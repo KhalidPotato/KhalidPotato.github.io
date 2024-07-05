@@ -410,7 +410,7 @@
                                             {
         "name": "Hot Chocolate",
         "copies": "N/A",
-        "demand": [7, 10],
+        "demand": [5, 10],
         "image": "./HotChocolate.webp",
         "values": {
             "tickets": "8",
@@ -422,7 +422,7 @@
                                                 {
         "name": "Black Coffee",
         "copies": "N/A",
-        "demand": [6, 10],
+        "demand": [8, 10],
         "image": "./BlackCoffee.webp",
         "values": {
             "tickets": "8",
