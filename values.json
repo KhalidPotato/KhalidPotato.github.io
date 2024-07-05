@@ -506,19 +506,19 @@
                                                 {
         "name": "Raw Cod",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [4, 10],
         "image": "./RawCod.webp",
         "values": {
-            "tickets": "O/C",
-            "keys": "O/C",
-            "coins": "850",
-            "case-bux": "85"
+            "tickets": "200",
+            "keys": "100",
+            "coins": "20",
+            "case-bux": "2"
         }
     },
                                                 {
         "name": "Tropical Fish",
         "copies": "N/A",
-        "demand": [2, 10],
+        "demand": [1, 10],
         "image": "./TropicalFish.webp",
         "values": {
             "tickets": "O/C",
@@ -544,6 +544,18 @@
         "copies": "N/A",
         "demand": [1, 10],
         "image": "./BrownMushroom.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+                                                        {
+        "name": "Fishing Rod",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./FishingRod.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
