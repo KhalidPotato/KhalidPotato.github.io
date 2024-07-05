@@ -101,10 +101,10 @@
         "demand": [4, 10],
         "image": "./Khaotix.webp",
         "values": {
-            "tickets": "100",
-            "keys": "50",
-            "coins": "10",
-            "case-bux": "N/A"
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
         }
     },
     {
@@ -145,14 +145,14 @@
     },
         {
         "name": "Potato",
-        "copies": "N/A",
-        "demand": [1, 10],
+        "copies": "128",
+        "demand": [2, 10],
         "image": "./Potato.webp",
         "values": {
-            "tickets": "1000",
-            "keys": "500",
-            "coins": "100",
-            "case-bux": "10"
+            "tickets": "200",
+            "keys": "100",
+            "coins": "50",
+            "case-bux": "5"
         }
     },
         {
@@ -553,7 +553,7 @@
     },
                                                         {
         "name": "Fishing Rod",
-        "copies": "N/A",
+        "copies": "1",
         "demand": [1, 10],
         "image": "./FishingRod.webp",
         "values": {
