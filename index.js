@@ -74,15 +74,19 @@ async function initializeCards() {
   });
 }
 
+function getSortValue(value) {
+  if (value === "N/A") return -2;
+  if (value === "O/C") return -1;
+  return parseFloat(value) || 0;
+}
+
 function sortItems(criteria) {
   cardContainer.innerHTML = "";
   fetchData().then((cardData) => {
     cardData.sort((a, b) => {
-      if (typeof a.values[criteria] === "string") {
-        return a.values[criteria].localeCompare(b.values[criteria]);
-      } else {
-        return a.values[criteria] - b.values[criteria];
-      }
+      const aValue = getSortValue(a.values[criteria]);
+      const bValue = getSortValue(b.values[criteria]);
+      return aValue - bValue;
     });
     cardData.forEach((data) => {
       createCard(data);
