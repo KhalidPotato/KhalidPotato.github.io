@@ -2,7 +2,7 @@
     {
         "name": "Ticket",
         "copies": "N/A",
-        "demand": [10, 10],
+        "demand": [9, 10],
         "image": "./Ticket.webp",
         "values": {
             "tickets": 1,
@@ -17,8 +17,8 @@
         "demand": [9, 10],
         "image": "./Steak.webp",
         "values": {
-            "tickets": 2,
-            "keys": "1",
+            "tickets": 1,
+            "keys": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -26,11 +26,11 @@
         {
         "name": "Egg",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [1, 10],
         "image": "./Egg.webp",
         "values": {
-            "tickets": 4,
-            "keys": "2",
+            "tickets": 2,
+            "keys": "1",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -50,7 +50,7 @@
         {
         "name": "Golden Carrot",
         "copies": "N/A",
-        "demand": [8, 10],
+        "demand": [7, 10],
         "image": "./GoldenCarrot.webp",
         "values": {
             "tickets": 2,
@@ -62,36 +62,36 @@
     {
         "name": "Pro Voucher",
         "copies": "15",
-        "demand": [2, 10],
+        "demand": [1, 10],
         "image": "./ProVoucher.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "coins": "1000",
-            "case-bux": "100"
+            "coins": "850",
+            "case-bux": "90"
         }
     },
     {
         "name": "Master Voucher",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [1, 10],
         "image": "./ProVoucher.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "coins": "2500",
-            "case-bux": "250"
+            "coins": "1300",
+            "case-bux": "130"
         }
     },
         {
         "name": "Withered Rose",
         "copies": "N/A",
-        "demand": [7, 10],
+        "demand": [6, 10],
         "image": "./WitheredRose.png",
         "values": {
-            "tickets": "50",
-            "keys": "25",
-            "coins": "5",
+            "tickets": "40",
+            "keys": "20",
+            "coins": "10",
             "case-bux": "N/A"
         }
     },
@@ -110,19 +110,19 @@
     {
         "name": "Nomi's Flower",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [6, 10],
         "image": "./NomisFlower.webp",
         "values": {
-            "tickets": "O/C",
-            "keys": "O/C",
-            "coins": "O/C",
-            "case-bux": "O/C"
+            "tickets": "2000",
+            "keys": "200",
+            "coins": "20",
+            "case-bux": "2"
         }
     },
         {
         "name": "Hammer",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [3, 10],
         "image": "./Hammer.webp",
         "values": {
             "tickets": "N/A",
@@ -146,19 +146,19 @@
         {
         "name": "Potato",
         "copies": "128",
-        "demand": [2, 10],
+        "demand": [4, 10],
         "image": "./Potato.webp",
         "values": {
-            "tickets": "200",
-            "keys": "100",
-            "coins": "50",
-            "case-bux": "5"
+            "tickets": "100",
+            "keys": "10",
+            "coins": "5",
+            "case-bux": "N/A"
         }
     },
         {
         "name": "Poison 'D' Potat",
         "copies": "N/A",
-        "demand": [6, 10],
+        "demand": [2, 10],
         "image": "./Poisoned.gif",
         "values": {
             "tickets": "O/C",
@@ -170,18 +170,18 @@
         {
         "name": "Slime Ball",
         "copies": "15",
-        "demand": [2, 10],
+        "demand": [1, 10],
         "image": "./SlimeBall.webp",
         "values": {
-            "tickets": "300",
-            "keys": "150",
-            "coins": "30",
-            "case-bux": "3"
+            "tickets": "250",
+            "keys": "50",
+            "coins": "50",
+            "case-bux": "5"
         }
     },
         {
-        "name": "Fake Iron",
-        "copies": "1",
+        "name": "Iron Ingot",
+        "copies": "3",
         "demand": [1, 10],
         "image": "./FakeIron.webp",
         "values": {
@@ -194,7 +194,7 @@
         {
         "name": "Mega Ticket",
         "copies": "N/A",
-        "demand": [2, 10],
+        "demand": [1, 10],
         "image": "./MegaTicket.webp",
         "values": {
             "tickets": "1",
@@ -206,7 +206,7 @@
         {
         "name": "Ultra Ticket",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [1, 10],
         "image": "./UltraTicket.webp",
         "values": {
             "tickets": "1",
@@ -218,7 +218,7 @@
             {
         "name": "Mega Key",
         "copies": "N/A",
-        "demand": [2, 10],
+        "demand": [1, 10],
         "image": "./MegaKey.webp",
         "values": {
             "tickets": "2",
@@ -230,7 +230,7 @@
             {
         "name": "Ultra Key",
         "copies": "N/A",
-        "demand": [7, 10],
+        "demand": [3, 10],
         "image": "./UltraKey.webp",
         "values": {
             "tickets": "2",
@@ -242,7 +242,7 @@
                     {
         "name": "Azreal's Dagger",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [5, 10],
         "image": "./IronSword.webp",
         "values": {
             "tickets": "150",
@@ -254,7 +254,7 @@
                 {
         "name": "Portugese Knife Fight",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [2, 10],
         "image": "./IronEnchant.gif",
         "values": {
             "tickets": "100",
@@ -266,25 +266,25 @@
                     {
         "name": "Sugar Cookie",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./SugarCookie.gif",
         "values": {
             "tickets": "800",
             "keys": "400",
-            "coins": "80",
+            "coins": "40",
             "case-bux": "8"
         }
     },
                     {
         "name": "Brush",
         "copies": "N/A",
-        "demand": [8, 10],
+        "demand": [7, 10],
         "image": "./Brush.webp",
         "values": {
             "tickets": "800",
             "keys": "400",
-            "coins": "80",
-            "case-bux": "8"
+            "coins": "40",
+            "case-bux": "4"
         }
     },
                     {
@@ -296,13 +296,13 @@
             "tickets": "800",
             "keys": "400",
             "coins": "80",
-            "case-bux": "10"
+            "case-bux": "8"
         }
     },
                         {
         "name": "Banjo",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [0, 10],
         "image": "./Banjo.webp",
         "values": {
             "tickets": "O/C",
@@ -314,7 +314,7 @@
                             {
         "name": "Stockcoin",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [1, 10],
         "image": "./Stockcoin.webp",
         "values": {
             "tickets": "O/C",
@@ -329,16 +329,16 @@
         "demand": [2, 10],
         "image": "./Saddle.webp",
         "values": {
-            "tickets": "1000",
-            "keys": "500",
-            "coins": "100",
-            "case-bux": "10"
+            "tickets": "400",
+            "keys": "200",
+            "coins": "20",
+            "case-bux": "2"
         }
     },
                                     {
         "name": "String",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./String.webp",
         "values": {
             "tickets": "O/C",
@@ -446,7 +446,7 @@
                                     {
         "name": "Cocaine",
         "copies": "72",
-        "demand": [5, 10],
+        "demand": [2, 10],
         "image": "./Sugar.webp",
         "values": {
             "tickets": "128",
@@ -458,7 +458,7 @@
                                         {
         "name": "KFC Blessing",
         "copies": "N/A",
-        "demand": [6, 10],
+        "demand": [8, 10],
         "image": "./Totem.webp",
         "values": {
             "tickets": "O/C",
@@ -482,7 +482,7 @@
                                             {
         "name": "Lead",
         "copies": "14",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./Lead.webp",
         "values": {
             "tickets": "O/C",
@@ -494,7 +494,7 @@
                                                 {
         "name": "Bowl",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./Bowl.webp",
         "values": {
             "tickets": "O/C",
@@ -530,7 +530,7 @@
                                                 {
         "name": "Red Mushroom",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./RedMushroom.webp",
         "values": {
             "tickets": "O/C",
@@ -542,7 +542,7 @@
                                                     {
         "name": "Brown Mushroom",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./BrownMushroom.webp",
         "values": {
             "tickets": "O/C",
@@ -553,8 +553,8 @@
     },
                                                         {
         "name": "Fishing Rod",
-        "copies": "1",
-        "demand": [1, 10],
+        "copies": "2",
+        "demand": [0, 10],
         "image": "./FishingRod.webp",
         "values": {
             "tickets": "O/C",
