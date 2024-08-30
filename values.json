@@ -452,13 +452,13 @@
             "tickets": "128",
             "keys": "64",
             "coins": "12",
-            "case-bux": "N/A"
+            "case-bux": "1"
         }
     },
                                         {
-        "name": "KFC Blessing",
+        "name": "Totem of Undying",
         "copies": "N/A",
-        "demand": [8, 10],
+        "demand": [7, 10],
         "image": "./Totem.webp",
         "values": {
             "tickets": "O/C",
