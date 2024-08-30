@@ -553,7 +553,7 @@
     },
                                                         {
         "name": "Fishing Rod",
-        "copies": "2",
+        "copies": "3",
         "demand": [1, 10],
         "image": "./FishingRod.webp",
         "values": {
