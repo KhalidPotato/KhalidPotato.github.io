@@ -8,8 +8,7 @@
             "tickets": 1,
             "keys": "N/A",
             "coins": "N/A",
-            "case-bux": "N/A",
-            "lol": "pro"
+            "case-bux": "N/A"
         }
     },
     {
@@ -27,13 +26,13 @@
         {
         "name": "Egg",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./Egg.webp",
         "values": {
-            "tickets": 2,
-            "keys": "1",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": 200,
+            "keys": "100",
+            "coins": "10",
+            "case-bux": "1"
         }
     },
         {
@@ -68,8 +67,8 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "coins": "850",
-            "case-bux": "90"
+            "coins": "750",
+            "case-bux": "75"
         }
     },
     {
@@ -87,7 +86,7 @@
         {
         "name": "Withered Rose",
         "copies": "N/A",
-        "demand": [6, 10],
+        "demand": [5, 10],
         "image": "./WitheredRose.png",
         "values": {
             "tickets": "40",
@@ -99,7 +98,7 @@
         {
         "name": "Khaotix",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [3, 10],
         "image": "./Khaotix.webp",
         "values": {
             "tickets": "O/C",
@@ -114,10 +113,10 @@
         "demand": [6, 10],
         "image": "./NomisFlower.webp",
         "values": {
-            "tickets": "2000",
-            "keys": "200",
-            "coins": "20",
-            "case-bux": "2"
+            "tickets": "1850",
+            "keys": "925",
+            "coins": "92",
+            "case-bux": "9"
         }
     },
         {
@@ -146,13 +145,13 @@
     },
         {
         "name": "Potato",
-        "copies": "128",
-        "demand": [4, 10],
+        "copies": "116",
+        "demand": [3, 10],
         "image": "./Potato.webp",
         "values": {
-            "tickets": "100",
-            "keys": "10",
-            "coins": "5",
+            "tickets": "120",
+            "keys": "12",
+            "coins": "6",
             "case-bux": "N/A"
         }
     },
@@ -471,7 +470,7 @@
                                             {
         "name": "Cocao Beans",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./CocoaBeans.webp",
         "values": {
             "tickets": "O/C",
