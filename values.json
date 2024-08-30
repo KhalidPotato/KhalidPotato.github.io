@@ -579,7 +579,7 @@
         "name": "Diamond Shovel",
         "copies": "2",
         "demand": [1, 10],
-        "image": "./diasword.webp",
+        "image": "./diashovel.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
