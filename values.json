@@ -482,7 +482,7 @@
                                             {
         "name": "Lead",
         "copies": "14",
-        "demand": [0, 10],
+        "demand": [1, 10],
         "image": "./Lead.webp",
         "values": {
             "tickets": "O/C",
@@ -554,7 +554,7 @@
                                                         {
         "name": "Fishing Rod",
         "copies": "2",
-        "demand": [0, 10],
+        "demand": [1, 10],
         "image": "./FishingRod.webp",
         "values": {
             "tickets": "O/C",
@@ -562,5 +562,17 @@
             "coins": "O/C",
             "case-bux": "O/C"
         }
-    }
+    },
+                                                        {
+        "name": "Sswya's Shard",
+        "copies": "1",
+        "demand": [0, 10],
+        "image": "./diasword.gif",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
 ]
