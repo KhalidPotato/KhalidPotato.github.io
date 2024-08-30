@@ -564,6 +564,30 @@
         }
     },
                                                         {
+        "name": "Diamond Shovel",
+        "copies": "2",
+        "demand": [1, 10],
+        "image": "./diasword.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+                                                        {
+        "name": "Diamond Sword",
+        "copies": "3",
+        "demand": [2, 10],
+        "image": "./diasword.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "3000",
+            "case-bux": "300"
+        }
+    },
+                                                        {
         "name": "Sswya's Shard",
         "copies": "1",
         "demand": [0, 10],
