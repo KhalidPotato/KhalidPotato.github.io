@@ -269,9 +269,21 @@
         "demand": [0, 10],
         "image": "./SugarCookie.gif",
         "values": {
-            "tickets": "800",
-            "keys": "400",
-            "coins": "40",
+            "tickets": "1600",
+            "keys": "800",
+            "coins": "80",
+            "case-bux": "8"
+        }
+    },
+                    {
+        "name": "Water Bottle",
+        "copies": "N/A",
+        "demand": [5, 10],
+        "image": "./WaterBottle.webp",
+        "values": {
+            "tickets": "1600",
+            "keys": "800",
+            "coins": "80",
             "case-bux": "8"
         }
     },
@@ -281,20 +293,8 @@
         "demand": [7, 10],
         "image": "./Brush.webp",
         "values": {
-            "tickets": "800",
-            "keys": "400",
-            "coins": "40",
-            "case-bux": "4"
-        }
-    },
-                    {
-        "name": "Water Bottle",
-        "copies": "N/A",
-        "demand": [5, 10],
-        "image": "./WaterBottle.webp",
-        "values": {
-            "tickets": "800",
-            "keys": "400",
+            "tickets": "1600",
+            "keys": "800",
             "coins": "80",
             "case-bux": "8"
         }
@@ -302,7 +302,7 @@
                         {
         "name": "Banjo",
         "copies": "N/A",
-        "demand": [0, 10],
+        "demand": [1, 10],
         "image": "./Banjo.webp",
         "values": {
             "tickets": "O/C",
@@ -313,14 +313,14 @@
     },
                             {
         "name": "Stockcoin",
-        "copies": "N/A",
-        "demand": [1, 10],
+        "copies": "34",
+        "demand": [3, 10],
         "image": "./Stockcoin.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "coins": "Increases every Purchase.",
-            "case-bux": "O/C"
+            "coins": "766",
+            "case-bux": "77"
         }
     },
                                 {
