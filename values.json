@@ -564,6 +564,18 @@
         }
     },
                                                         {
+        "name": "Khalid's Nametag",
+        "copies": "1",
+        "demand": [0, 10],
+        "image": "./nametag.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "6900",
+            "case-bux": "690"
+        }
+    },
+                                                        {
         "name": "Diamond Shovel",
         "copies": "2",
         "demand": [1, 10],
