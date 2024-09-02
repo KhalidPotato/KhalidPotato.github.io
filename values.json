@@ -622,5 +622,89 @@
             "coins": "O/C",
             "case-bux": "O/C"
         }
+    },
+    {
+        "name": "Netherite Pickaxe",
+        "copies": "1",
+        "demand": [0, 10],
+        "image": "./netheritepickaxe.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+    {
+        "name": "Shulker Box (Various Colors)",
+        "copies": "1",
+        "demand": [0, 10],
+        "image": "./Pink_Shulker_Box.png",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+    {
+        "name": "Glass (Various Colors)",
+        "copies": "6",
+        "demand": [1, 10],
+        "image": "./Glass.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+    {
+        "name": "Loom",
+        "copies": "1",
+        "demand": [0,10],
+        "image": "./Loom.png",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+    {
+        "name": "Bone",
+        "copies": "8",
+        "demand": [0, 10],
+        "image": "./Bone.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+    {
+        "name": "Debris Flower",
+        "copies": "3",
+        "demand": [0, 10],
+        "image": "./DebrisFlower.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+    {
+        "name" : "Divine Curse",
+        "copies": "2",
+        "demand": [0, 10],
+        "image": "./AmethystShard.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
     }
 ]
