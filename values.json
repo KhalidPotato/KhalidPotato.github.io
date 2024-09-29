@@ -2,7 +2,7 @@
     {
         "name": "Ticket",
         "copies": "N/A",
-        "demand": [9, 10],
+        "demand": [10, 10],
         "image": "./Ticket.webp",
         "values": {
             "tickets": 1,
@@ -14,7 +14,7 @@
     {
         "name": "Steak",
         "copies": "N/A",
-        "demand": [9, 10],
+        "demand": [8, 10],
         "image": "./Steak.webp",
         "values": {
             "tickets": 1,
@@ -98,31 +98,31 @@
         {
         "name": "Khaotix",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [4, 10],
         "image": "./Khaotix.webp",
         "values": {
-            "tickets": "O/C",
-            "keys": "O/C",
-            "coins": "O/C",
-            "case-bux": "O/C"
+            "tickets": "400",
+            "keys": "200",
+            "coins": "20",
+            "case-bux": "2"
         }
     },
     {
         "name": "Nomi's Flower",
         "copies": "N/A",
-        "demand": [6, 10],
+        "demand": [5, 10],
         "image": "./NomisFlower.webp",
         "values": {
-            "tickets": "1850",
-            "keys": "925",
-            "coins": "92",
+            "tickets": "1800",
+            "keys": "900",
+            "coins": "90",
             "case-bux": "9"
         }
     },
         {
         "name": "Hammer",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [2, 10],
         "image": "./Hammer.webp",
         "values": {
             "tickets": "N/A",
@@ -134,19 +134,19 @@
         {
         "name": "Potatosim Hoe",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [5, 10],
         "image": "./PotatosimHoe.webp",
         "values": {
-            "tickets": "O/C",
-            "keys": "O/C",
-            "coins": "O/C",
-            "case-bux": "O/C"
+            "tickets": "N/A",
+            "keys": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
         }
     },
         {
         "name": "Potato",
         "copies": "116",
-        "demand": [3, 10],
+        "demand": [1, 10],
         "image": "./Potato.webp",
         "values": {
             "tickets": "120",
@@ -175,14 +175,14 @@
         "values": {
             "tickets": "250",
             "keys": "50",
-            "coins": "50",
-            "case-bux": "5"
+            "coins": "5",
+            "case-bux": "N/A"
         }
     },
         {
         "name": "Iron Ingot",
         "copies": "3",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./FakeIron.webp",
         "values": {
             "tickets": "O/C",
@@ -194,7 +194,7 @@
         {
         "name": "Mega Ticket",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./MegaTicket.webp",
         "values": {
             "tickets": "1",
@@ -206,7 +206,7 @@
         {
         "name": "Ultra Ticket",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./UltraTicket.webp",
         "values": {
             "tickets": "1",
@@ -242,11 +242,11 @@
                     {
         "name": "Azreal's Dagger",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [4, 10],
         "image": "./IronSword.webp",
         "values": {
-            "tickets": "150",
-            "keys": "75",
+            "tickets": "300",
+            "keys": "30",
             "coins": "15",
             "case-bux": "N/A"
         }
@@ -313,14 +313,14 @@
     },
                             {
         "name": "Stockcoin",
-        "copies": "34",
-        "demand": [3, 10],
+        "copies": "35",
+        "demand": [4, 10],
         "image": "./Stockcoin.webp",
         "values": {
             "tickets": "O/C",
-            "keys": "O/C",
-            "coins": "766",
-            "case-bux": "77"
+            "keys": "1686",
+            "coins": "843",
+            "case-bux": "84"
         }
     },
                                 {
@@ -350,7 +350,7 @@
                                     {
         "name": "Vegetable Stew",
         "copies": "N/A",
-        "demand": [2, 10],
+        "demand": [0, 10],
         "image": "./Vegetable.webp",
         "values": {
             "tickets": "3",
@@ -362,7 +362,7 @@
                                         {
         "name": "Kentucky Fried Chicken",
         "copies": "N/A",
-        "demand": [6, 10],
+        "demand": [0, 10],
         "image": "./Fried.webp",
         "values": {
             "tickets": "3",
@@ -374,7 +374,7 @@
                                         {
         "name": "Beetrout Stew",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./BeetroutStew.webp",
         "values": {
             "tickets": "3",
@@ -386,7 +386,7 @@
                                             {
         "name": "Mushroom Stew",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./MushroomStew.webp",
         "values": {
             "tickets": "3",
@@ -398,7 +398,7 @@
                                         {
         "name": "Cooked Cod",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [0, 10],
         "image": "./CookedCod.webp",
         "values": {
             "tickets": "3",
@@ -410,7 +410,7 @@
                                             {
         "name": "Hot Chocolate",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [0, 10],
         "image": "./HotChocolate.webp",
         "values": {
             "tickets": "8",
@@ -422,7 +422,7 @@
                                                 {
         "name": "Black Coffee",
         "copies": "N/A",
-        "demand": [8, 10],
+        "demand": [0, 10],
         "image": "./BlackCoffee.webp",
         "values": {
             "tickets": "8",
@@ -456,9 +456,9 @@
         }
     },
                                         {
-        "name": "Totem of Undying",
+            "name": "Totem of Undying",
         "copies": "N/A",
-        "demand": [7, 10],
+        "demand": [3, 10],
         "image": "./Totem.webp",
         "values": {
             "tickets": "O/C",
@@ -486,9 +486,9 @@
         "image": "./Lead.webp",
         "values": {
             "tickets": "O/C",
-            "keys": "O/C",
-            "coins": "O/C",
-            "case-bux": "O/C"
+            "keys": "N/A",
+            "coins": "800",
+            "case-bux": "80"
         }
     },
                                                 {
@@ -506,11 +506,11 @@
                                                 {
         "name": "Raw Cod",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [2, 10],
         "image": "./RawCod.webp",
         "values": {
             "tickets": "200",
-            "keys": "100",
+            "keys": "200",
             "coins": "20",
             "case-bux": "2"
         }
@@ -518,7 +518,7 @@
                                                 {
         "name": "Tropical Fish",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./TropicalFish.webp",
         "values": {
             "tickets": "O/C",
@@ -554,7 +554,7 @@
                                                         {
         "name": "Fishing Rod",
         "copies": "3",
-        "demand": [1, 10],
+        "demand": [2, 10],
         "image": "./FishingRod.webp",
         "values": {
             "tickets": "O/C",
@@ -566,11 +566,11 @@
                                                         {
         "name": "Khalid's Nametag",
         "copies": "1",
-        "demand": [0, 10],
+        "demand": [1, 10],
         "image": "./nametag.webp",
         "values": {
-            "tickets": "O/C",
-            "keys": "O/C",
+            "tickets": "138000",
+            "keys": "69000",
             "coins": "6900",
             "case-bux": "690"
         }
@@ -602,13 +602,13 @@
                                                         {
         "name": "Diamond Sword",
         "copies": "3",
-        "demand": [2, 10],
+        "demand": [1, 10],
         "image": "./diasword.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "coins": "3000",
-            "case-bux": "300"
+            "coins": "2600",
+            "case-bux": "260"
         }
     },
                                                         {
