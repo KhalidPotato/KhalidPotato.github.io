@@ -660,7 +660,7 @@
         }
     },
     {
-        "name" : "Divine Blessing/Curse",
+        "name" : "Divine Curse/Blessing",
         "copies": "3",
         "demand": [0, 10],
         "image": "./AmethystShard.webp",
