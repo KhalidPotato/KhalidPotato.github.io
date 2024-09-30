@@ -650,7 +650,7 @@
     {
         "name": "Bone",
         "copies": "8",
-        "demand": [0, 10],
+        "demand": [1, 10],
         "image": "./Bone.webp",
         "values": {
             "tickets": "O/C",
@@ -660,8 +660,8 @@
         }
     },
     {
-        "name" : "Divine Curse",
-        "copies": "2",
+        "name" : "Divine Blessing/Curse",
+        "copies": "3",
         "demand": [0, 10],
         "image": "./AmethystShard.webp",
         "values": {
@@ -669,6 +669,18 @@
             "keys": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
+        }
+    },
+    {
+        "name" : "Shield",
+        "copies": "N/A",
+        "demand": [3, 10],
+        "image": "./shield.webp",
+        "values": {
+            "tickets": "N/A",
+            "keys": "3000",
+            "coins": "300",
+            "case-bux": "30"
         }
     }
 ]
