@@ -86,7 +86,7 @@
         {
         "name": "Withered Rose",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [4, 10],
         "image": "./WitheredRose.png",
         "values": {
             "tickets": "40",
@@ -101,10 +101,10 @@
         "demand": [4, 10],
         "image": "./Khaotix.webp",
         "values": {
-            "tickets": "400",
-            "keys": "200",
-            "coins": "20",
-            "case-bux": "2"
+            "tickets": "300",
+            "keys": "150",
+            "coins": "15",
+            "case-bux": "1"
         }
     },
     {
@@ -113,7 +113,7 @@
         "demand": [5, 10],
         "image": "./NomisFlower.webp",
         "values": {
-            "tickets": "1800",
+            "tickets": "O/C",
             "keys": "900",
             "coins": "90",
             "case-bux": "9"
@@ -122,7 +122,7 @@
         {
         "name": "Hammer",
         "copies": "N/A",
-        "demand": [2, 10],
+        "demand": [1, 10],
         "image": "./Hammer.webp",
         "values": {
             "tickets": "N/A",
@@ -134,7 +134,7 @@
         {
         "name": "Potatosim Hoe",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [6, 10],
         "image": "./PotatosimHoe.webp",
         "values": {
             "tickets": "N/A",
@@ -145,14 +145,14 @@
     },
         {
         "name": "Potato",
-        "copies": "116",
+        "copies": "100",
         "demand": [1, 10],
         "image": "./Potato.webp",
         "values": {
             "tickets": "120",
             "keys": "12",
             "coins": "6",
-            "case-bux": "N/A"
+            "case-bux": "1"
         }
     },
         {
@@ -242,13 +242,13 @@
                     {
         "name": "Azreal's Dagger",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [2, 10],
         "image": "./IronSword.webp",
         "values": {
-            "tickets": "300",
-            "keys": "30",
-            "coins": "15",
-            "case-bux": "N/A"
+            "tickets": "O/C",
+            "keys": "200",
+            "coins": "20",
+            "case-bux": "2"
         }
     },
                 {
@@ -318,7 +318,7 @@
         "image": "./Stockcoin.webp",
         "values": {
             "tickets": "O/C",
-            "keys": "1686",
+            "keys": "O/C",
             "coins": "843",
             "case-bux": "84"
         }
@@ -422,19 +422,19 @@
                                                 {
         "name": "Black Coffee",
         "copies": "N/A",
-        "demand": [0, 10],
+        "demand": [4, 10],
         "image": "./BlackCoffee.webp",
         "values": {
-            "tickets": "8",
-            "keys": "4",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": "O/C",
+            "keys": "140",
+            "coins": "70",
+            "case-bux": "7"
         }
     },
                                     {
         "name": "Wheat Seed",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [0, 10],
         "image": "./WheatSeed.webp",
         "values": {
             "tickets": "O/C",
@@ -569,10 +569,10 @@
         "demand": [1, 10],
         "image": "./nametag.webp",
         "values": {
-            "tickets": "138000",
-            "keys": "69000",
-            "coins": "6900",
-            "case-bux": "690"
+            "tickets": "13800",
+            "keys": "6900",
+            "coins": "690",
+            "case-bux": "69"
         }
     },
                                                         {
@@ -588,9 +588,9 @@
         }
     },
                                                         {
-        "name": "Diamond Shovel",
+        "name": "Support of Feminism",
         "copies": "2",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./diashovel.webp",
         "values": {
             "tickets": "O/C",
@@ -602,7 +602,7 @@
                                                         {
         "name": "Diamond Sword",
         "copies": "3",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./diasword.webp",
         "values": {
             "tickets": "O/C",
@@ -674,13 +674,25 @@
     {
         "name" : "Shield",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [4, 10],
         "image": "./shield.webp",
         "values": {
-            "tickets": "N/A",
-            "keys": "3000",
+            "tickets": "O/C",
+            "keys": "O/C",
             "coins": "300",
             "case-bux": "30"
+        }
+    },
+        {
+        "name" : "Sandoony's Gyatt++",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./sand.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "200",
+            "coins": "20",
+            "case-bux": "2"
         }
     }
 ]
