@@ -210,7 +210,7 @@
         {
         "name": "Mega Ticket",
         "copies": "N/A",
-        "demand": [0, 10],
+        "demand": [1, 10],
         "image": "./MegaTicket.webp",
         "values": {
             "tickets": "1",
@@ -223,7 +223,7 @@
         {
         "name": "Ultra Ticket",
         "copies": "N/A",
-        "demand": [0, 10],
+        "demand": [1, 10],
         "image": "./UltraTicket.webp",
         "values": {
             "tickets": "1",
@@ -236,7 +236,7 @@
             {
         "name": "Mega Key",
         "copies": "N/A",
-        "demand": [0, 10],
+        "demand": [1, 10],
         "image": "./MegaKey.webp",
         "values": {
             "tickets": "2",
