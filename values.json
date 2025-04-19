@@ -7,6 +7,7 @@
         "values": {
             "tickets": 1,
             "keys": "N/A",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -19,6 +20,7 @@
         "values": {
             "tickets": 1,
             "keys": "N/A",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -31,6 +33,7 @@
         "values": {
             "tickets": 200,
             "keys": "100",
+            "lapis": "12",
             "coins": "10",
             "case-bux": "1"
         }
@@ -43,6 +46,7 @@
         "values": {
             "tickets": 2,
             "keys": "1",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -55,6 +59,7 @@
         "values": {
             "tickets": 2,
             "keys": "1",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -62,25 +67,27 @@
     {
         "name": "Pro Voucher",
         "copies": "15",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./ProVoucher.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "coins": "750",
-            "case-bux": "75"
+            "lapis": "600",
+            "coins": "500",
+            "case-bux": "50"
         }
     },
     {
         "name": "Master Voucher",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./ProVoucher.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "coins": "1300",
-            "case-bux": "130"
+            "lapis": "960",
+            "coins": "800",
+            "case-bux": "80"
         }
     },
         {
@@ -91,18 +98,20 @@
         "values": {
             "tickets": "40",
             "keys": "20",
+            "lapis": "12",
             "coins": "10",
-            "case-bux": "N/A"
+            "case-bux": "1"
         }
     },
         {
         "name": "Khaotix",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [3, 10],
         "image": "./Khaotix.webp",
         "values": {
             "tickets": "300",
             "keys": "150",
+            "lapis": "18",
             "coins": "15",
             "case-bux": "1"
         }
@@ -110,23 +119,25 @@
     {
         "name": "Nomi's Flower",
         "copies": "N/A",
-        "demand": [5, 10],
+        "demand": [6, 10],
         "image": "./NomisFlower.webp",
         "values": {
             "tickets": "O/C",
-            "keys": "900",
-            "coins": "90",
-            "case-bux": "9"
+            "keys": "O/C",
+            "lapis": "120",
+            "coins": "100",
+            "case-bux": "10"
         }
     },
         {
         "name": "Hammer",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./Hammer.webp",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -134,49 +145,53 @@
         {
         "name": "Potatosim Hoe",
         "copies": "N/A",
-        "demand": [6, 10],
+        "demand": [3, 10],
         "image": "./PotatosimHoe.webp",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
     },
         {
         "name": "Potato",
-        "copies": "100",
+        "copies": "120",
         "demand": [1, 10],
         "image": "./Potato.webp",
         "values": {
-            "tickets": "120",
-            "keys": "12",
-            "coins": "6",
+            "tickets": "200",
+            "keys": "20",
+            "lapis": "12",
+            "coins": "10",
             "case-bux": "1"
         }
     },
         {
         "name": "Poison 'D' Potat",
         "copies": "N/A",
-        "demand": [2, 10],
+        "demand": [1, 10],
         "image": "./Poisoned.gif",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
     },
         {
         "name": "Slime Ball",
-        "copies": "15",
+        "copies": "13",
         "demand": [1, 10],
         "image": "./SlimeBall.webp",
         "values": {
-            "tickets": "250",
-            "keys": "50",
-            "coins": "5",
-            "case-bux": "N/A"
+            "tickets": "O/C",
+            "keys": "120",
+            "lapis": "72",
+            "coins": "60",
+            "case-bux": "6"
         }
     },
         {
@@ -187,6 +202,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -199,6 +215,7 @@
         "values": {
             "tickets": "1",
             "keys": "N/A",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -211,6 +228,7 @@
         "values": {
             "tickets": "1",
             "keys": "N/A",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -218,11 +236,12 @@
             {
         "name": "Mega Key",
         "copies": "N/A",
-        "demand": [1, 10],
+        "demand": [0, 10],
         "image": "./MegaKey.webp",
         "values": {
             "tickets": "2",
             "keys": "1",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -235,6 +254,7 @@
         "values": {
             "tickets": "2",
             "keys": "1",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -242,11 +262,12 @@
                     {
         "name": "Azreal's Dagger",
         "copies": "N/A",
-        "demand": [2, 10],
+        "demand": [3, 10],
         "image": "./IronSword.webp",
         "values": {
-            "tickets": "O/C",
+            "tickets": "400",
             "keys": "200",
+            "lapis": "24",
             "coins": "20",
             "case-bux": "2"
         }
@@ -257,8 +278,9 @@
         "demand": [2, 10],
         "image": "./IronEnchant.gif",
         "values": {
-            "tickets": "100",
-            "keys": "50",
+            "tickets": "200",
+            "keys": "100",
+            "lapis": "12",
             "coins": "10",
             "case-bux": "1"
         }
@@ -269,8 +291,9 @@
         "demand": [0, 10],
         "image": "./SugarCookie.gif",
         "values": {
-            "tickets": "1600",
+            "tickets": "N/A",
             "keys": "800",
+            "lapis": "96",
             "coins": "80",
             "case-bux": "8"
         }
@@ -281,8 +304,9 @@
         "demand": [5, 10],
         "image": "./WaterBottle.webp",
         "values": {
-            "tickets": "1600",
+            "tickets": "N/A",
             "keys": "800",
+            "lapis": "96",
             "coins": "80",
             "case-bux": "8"
         }
@@ -293,10 +317,50 @@
         "demand": [7, 10],
         "image": "./Brush.webp",
         "values": {
-            "tickets": "1600",
+            "tickets": "N/A",
             "keys": "800",
+            "lapis": "96",
             "coins": "80",
             "case-bux": "8"
+        }
+    },
+                    {
+        "name": "Glass",
+        "copies": "N/A",
+        "demand": [5, 10],
+        "image": "./glass.webp",
+        "values": {
+            "tickets": "N/A",
+            "keys": "800",
+            "lapis": "96",
+            "coins": "80",
+            "case-bux": "8"
+        }
+    },
+    {
+        "name" : "Shield",
+        "copies": "N/A",
+        "demand": [4, 10],
+        "image": "./shield.webp",
+        "values": {
+            "tickets": "N/A",
+            "keys": "N/A",
+            "lapis": "480",
+            "coins": "400",
+            "case-bux": "40"
+        }
+    },
+                            {
+        "name": "Stockcoin",
+        "copies": "35",
+        "demand": [3, 10],
+        "image": "./Stockcoin.webp",
+        "values": {
+            "tickets": "N/A",
+            "keys": "N/A",
+            "lapis": "1481",
+            "coins": "1234.34",
+            "case-bux": "123"
         }
     },
                         {
@@ -305,22 +369,11 @@
         "demand": [1, 10],
         "image": "./Banjo.webp",
         "values": {
-            "tickets": "O/C",
-            "keys": "O/C",
+            "tickets": "N/A",
+            "keys": "N/A",
+            "lapis": "2400",
             "coins": "2000",
             "case-bux": "200"
-        }
-    },
-                            {
-        "name": "Stockcoin",
-        "copies": "35",
-        "demand": [4, 10],
-        "image": "./Stockcoin.webp",
-        "values": {
-            "tickets": "O/C",
-            "keys": "O/C",
-            "coins": "843",
-            "case-bux": "84"
         }
     },
                                 {
@@ -331,6 +384,7 @@
         "values": {
             "tickets": "400",
             "keys": "200",
+            "lapis": "24",
             "coins": "20",
             "case-bux": "2"
         }
@@ -343,6 +397,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -355,6 +410,7 @@
         "values": {
             "tickets": "3",
             "keys": "2",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -367,6 +423,7 @@
         "values": {
             "tickets": "3",
             "keys": "2",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -379,6 +436,7 @@
         "values": {
             "tickets": "3",
             "keys": "2",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -391,6 +449,7 @@
         "values": {
             "tickets": "3",
             "keys": "2",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -403,6 +462,7 @@
         "values": {
             "tickets": "3",
             "keys": "2",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -415,6 +475,7 @@
         "values": {
             "tickets": "8",
             "keys": "4",
+            "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
         }
@@ -422,13 +483,14 @@
                                                 {
         "name": "Black Coffee",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [2, 10],
         "image": "./BlackCoffee.webp",
         "values": {
             "tickets": "O/C",
-            "keys": "140",
-            "coins": "70",
-            "case-bux": "7"
+            "keys": "160",
+            "lapis": "96",
+            "coins": "80",
+            "case-bux": "8"
         }
     },
                                     {
@@ -439,6 +501,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "540",
             "coins": "450",
             "case-bux": "45"
         }
@@ -451,18 +514,20 @@
         "values": {
             "tickets": "128",
             "keys": "64",
+            "lapis": "14",
             "coins": "12",
             "case-bux": "1"
         }
     },
                                         {
-            "name": "Totem of Undying",
+        "name": "Totem of Undying",
         "copies": "N/A",
         "demand": [3, 10],
         "image": "./Totem.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "1440",
             "coins": "1200",
             "case-bux": "120"
         }
@@ -475,6 +540,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -487,6 +553,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "N/A",
+            "lapis": "960",
             "coins": "800",
             "case-bux": "80"
         }
@@ -499,6 +566,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -511,6 +579,7 @@
         "values": {
             "tickets": "200",
             "keys": "200",
+            "lapis": "24",
             "coins": "20",
             "case-bux": "2"
         }
@@ -523,6 +592,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -535,6 +605,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -547,6 +618,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -559,6 +631,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -571,6 +644,7 @@
         "values": {
             "tickets": "13800",
             "keys": "6900",
+            "lapis": "828",
             "coins": "690",
             "case-bux": "69"
         }
@@ -583,6 +657,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -595,6 +670,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -607,8 +683,9 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "coins": "2600",
-            "case-bux": "260"
+            "lapis": "1560",
+            "coins": "1300",
+            "case-bux": "130"
         }
     },
                                                         {
@@ -619,6 +696,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -631,6 +709,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -643,6 +722,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -655,6 +735,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
         }
@@ -667,20 +748,9 @@
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
+            "lapis": "O/C",
             "coins": "O/C",
             "case-bux": "O/C"
-        }
-    },
-    {
-        "name" : "Shield",
-        "copies": "N/A",
-        "demand": [4, 10],
-        "image": "./shield.webp",
-        "values": {
-            "tickets": "O/C",
-            "keys": "O/C",
-            "coins": "300",
-            "case-bux": "30"
         }
     },
         {
@@ -691,6 +761,7 @@
         "values": {
             "tickets": "O/C",
             "keys": "200",
+            "lapis": "24",
             "coins": "20",
             "case-bux": "2"
         }
