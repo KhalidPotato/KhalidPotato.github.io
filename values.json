@@ -96,8 +96,8 @@
         "demand": [4, 10],
         "image": "./WitheredRose.png",
         "values": {
-            "tickets": "40",
-            "keys": "20",
+            "tickets": "200",
+            "keys": "100",
             "lapis": "12",
             "coins": "10",
             "case-bux": "1"
@@ -109,11 +109,11 @@
         "demand": [3, 10],
         "image": "./Khaotix.webp",
         "values": {
-            "tickets": "300",
-            "keys": "150",
-            "lapis": "18",
-            "coins": "15",
-            "case-bux": "1"
+            "tickets": "80",
+            "keys": "40",
+            "lapis": "6",
+            "coins": "4",
+            "case-bux": "N/A"
         }
     },
     {
