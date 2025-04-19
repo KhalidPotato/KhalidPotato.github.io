@@ -1,11 +1,13 @@
 const cardContainer = document.querySelector(".card-container");
-const ticketButton = document.getElementById("ticket-button");
-const keyButton = document.getElementById("key-button");
-const coinButton = document.getElementById("coin-button");
-const caseBuxButton = document.getElementById("case-bux-button");
-const demandButton = document.getElementById("demand-button");
-const copiesButton = document.getElementById("copies-button");
-const nameButton = document.getElementById("name-button");
+const buttons = {
+  name: document.getElementById("name-button"),
+  tickets: document.getElementById("ticket-button"),
+  keys: document.getElementById("key-button"),
+  coins: document.getElementById("coin-button"),
+  casebux: document.getElementById("case-bux-button"),
+  demand: document.getElementById("demand-button"),
+  copies: document.getElementById("copies-button"),
+};
 const searchInput = document.getElementById("search-input");
 
 const commaify = (n) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -16,7 +18,8 @@ async function fetchData() {
     const cardData = await response.json();
     return cardData;
   } catch (error) {
-    console.error("Error searching for your Dad:", error);
+    console.error("Error loading values.json:", error);
+    return [];
   }
 }
 
@@ -29,92 +32,108 @@ function createCard(data) {
   card.appendChild(name);
 
   const image = document.createElement("img");
-  const imageSrc = `${
-    data.image.includes("./") ? `./images/${data.image.slice(1)}` : data.image
-  }`;
-  image.src = imageSrc;
+  image.src = data.image.includes("./") ? `./images/${data.image.slice(2)}` : data.image;
   image.alt = data.name;
   image.loading = "lazy";
   card.appendChild(image);
 
   const values = document.createElement("div");
   values.classList.add("value");
-  card.appendChild(values);
 
-  for (const value in data.values) {
-    if (data.values[value] != "-" && data.values[value] != 0) {
-      const valueText = document.createElement("p");
-      valueText.textContent = `${
-        value.charAt(0).toUpperCase() + value.slice(1)
-      }: ${
-        typeof data.values[value] == "number"
-          ? commaify(data.values[value])
-          : data.values[value]
-      }`;
-      values.appendChild(valueText);
+  for (const key in data.values) {
+    const val = data.values[key];
+    if (val !== "-" && val !== 0 && val !== "0" && val !== "N/A") {
+      const p = document.createElement("p");
+      p.textContent = `${key[0].toUpperCase() + key.slice(1)}: ${commaify(val)}`;
+      values.appendChild(p);
     }
   }
+
+  card.appendChild(values);
 
   const copies = document.createElement("p");
   copies.textContent = `COPIES: ${commaify(data.copies)}`;
   card.appendChild(copies);
 
   const demand = document.createElement("p");
-  demand.textContent = `DEMAND: ${data.demand[0]}/${data.demand[1] ? data.demand[1] : "10"}`;
+  demand.textContent = `DEMAND: ${data.demand[0]}/${data.demand[1] ?? "10"}`;
   card.appendChild(demand);
 
   cardContainer.appendChild(card);
 }
 
-async function initializeCards() {
-  cardContainer.innerHTML = "";
-  const cardData = await fetchData();
-  cardData.forEach((data) => {
-    createCard(data);
-  });
+function parseValue(val) {
+  if (val === "O/C") return 99999999999999;
+  if (val === "N/A") return 999999999999999;
+  const num = parseFloat(val);
+  return isNaN(num) ? 0 : num;
 }
 
-function getSortValue(value) {
-  if (value === "N/A") return -2;
-  if (value === "O/C") return -1;
-  return parseFloat(value) || 0;
+function parseDemand(demandArr) {
+  const val = demandArr[0];
+  if (val === "O/C") return 11;
+  if (val === "N/A") return 12;
+  return parseFloat(val) || 0;
+}
+
+function parseCopies(val) {
+  return parseValue(val);
 }
 
 function sortItems(criteria) {
-  cardContainer.innerHTML = "";
   fetchData().then((cardData) => {
-    cardData.sort((a, b) => {
-      const aValue = getSortValue(a.values[criteria]);
-      const bValue = getSortValue(b.values[criteria]);
-      return aValue - bValue;
-    });
-    cardData.forEach((data) => {
-      createCard(data);
-    });
+    let sorted;
+
+    if (criteria === "name") {
+      sorted = [...cardData].sort((a, b) =>
+        a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+      );
+    } else if (criteria === "demand") {
+      sorted = [...cardData].sort((a, b) =>
+        parseDemand(a.demand) - parseDemand(b.demand)
+      );
+    } else if (criteria === "copies") {
+      sorted = [...cardData].sort((a, b) =>
+        parseCopies(a.copies) - parseCopies(b.copies)
+      );
+    } else {
+      sorted = [...cardData].sort((a, b) =>
+        parseValue(a.values[criteria]) - parseValue(b.values[criteria])
+      );
+    }
+
+    cardContainer.innerHTML = "";
+    sorted.forEach(createCard);
   });
 }
 
 function searchItems() {
   const searchText = searchInput.value.toLowerCase();
-  cardContainer.innerHTML = "";
   fetchData().then((cardData) => {
-    const filteredData = cardData.filter((data) =>
-      data.name.toLowerCase().includes(searchText)
+    const filtered = cardData.filter((item) =>
+      item.name.toLowerCase().includes(searchText)
     );
-    filteredData.forEach((data) => {
-      createCard(data);
-    });
+    cardContainer.innerHTML = "";
+    filtered.forEach(createCard);
   });
 }
 
+function initializeCards() {
+  fetchData().then((cardData) => {
+    cardContainer.innerHTML = "";
+    cardData.forEach(createCard);
+  });
+}
+
+// Event Listeners
 searchInput.addEventListener("input", searchItems);
 
-nameButton.addEventListener("click", () => sortItems("name"));
-ticketButton.addEventListener("click", () => sortItems("tickets"));
-keyButton.addEventListener("click", () => sortItems("keys"));
-coinButton.addEventListener("click", () => sortItems("coins"));
-caseBuxButton.addEventListener("click", () => sortItems("case-bux"));
-copiesButton.addEventListener("click", () => sortItems("copies"));
-demandButton.addEventListener("click", () => sortItems("demand"));
+buttons.name.addEventListener("click", () => sortItems("name"));
+buttons.tickets.addEventListener("click", () => sortItems("tickets"));
+buttons.keys.addEventListener("click", () => sortItems("keys"));
+buttons.coins.addEventListener("click", () => sortItems("coins"));
+buttons.casebux.addEventListener("click", () => sortItems("case-bux"));
+buttons.copies.addEventListener("click", () => sortItems("copies"));
+buttons.demand.addEventListener("click", () => sortItems("demand"));
 
 window.addEventListener("DOMContentLoaded", initializeCards);
