@@ -1,5 +1,5 @@
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   background-color: #1f1f1f;
@@ -149,7 +149,7 @@ body {
   box-shadow: 2px 2px 5px #0D0D0D;
   border: 1px solid white;
   color: white;
-  font-family: 'Nunito';
+  font-family: sans-serif;
   font-weight: 800;
   height: 6.5vh;
   transition: 0.25s;
