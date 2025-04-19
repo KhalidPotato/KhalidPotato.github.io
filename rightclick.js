@@ -12,6 +12,9 @@ document.addEventListener('keydown', function (e) {
   if (e.ctrlKey && (e.key === 'c' || e.key === 'C')) {
     e.preventDefault();
   }
+  if (e.ctrlKey && (e.key === 'a' || e.key === 'A')) {
+    e.preventDefault();
+  }
   if (e.ctrlKey && (e.key === 'j' || e.key === 'J')) {
     e.preventDefault();
   }
