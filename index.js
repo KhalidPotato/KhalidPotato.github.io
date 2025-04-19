@@ -64,7 +64,7 @@ function createCard(data) {
   const valueLabels = ["tickets", "keys", "lapis", "coins", "case-bux"];
   valueLabels.forEach((key) => {
     const val = data.values?.[key];
-    if (val && val !== "-" && val !== 0 && val !== "0") {
+    if (val !== undefined && val !== "-") {
       const valueText = document.createElement("p");
       valueText.textContent = `${key.charAt(0).toUpperCase() + key.slice(1)}: ${
         typeof val === "number" ? commaify(val) : val
@@ -72,6 +72,7 @@ function createCard(data) {
       values.appendChild(valueText);
     }
   });
+
 
   const copies = document.createElement("p");
   copies.textContent = `COPIES: ${
