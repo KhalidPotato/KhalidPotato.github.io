@@ -6,6 +6,7 @@ const caseBuxButton = document.getElementById("case-bux-button");
 const demandButton = document.getElementById("demand-button");
 const copiesButton = document.getElementById("copies-button");
 const nameButton = document.getElementById("name-button");
+const lapisButton = document.getElementById("lapis-button");
 const searchInput = document.getElementById("search-input");
 
 const commaify = (n) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -73,7 +74,6 @@ function createCard(data) {
     }
   });
 
-
   const copies = document.createElement("p");
   copies.textContent = `COPIES: ${
     data.copies && data.copies !== "-" ? commaify(data.copies) : "N/A"
@@ -137,6 +137,7 @@ searchInput.addEventListener("input", searchItems);
 nameButton.addEventListener("click", () => sortItems("name"));
 ticketButton.addEventListener("click", () => sortItems("tickets"));
 keyButton.addEventListener("click", () => sortItems("keys"));
+lapisButton.addEventListener("click", () => sortItems("lapis"));
 coinButton.addEventListener("click", () => sortItems("coins"));
 caseBuxButton.addEventListener("click", () => sortItems("case-bux"));
 copiesButton.addEventListener("click", () => sortItems("copies"));
