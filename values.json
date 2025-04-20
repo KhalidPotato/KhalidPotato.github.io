@@ -678,14 +678,14 @@
                                                         {
         "name": "Diamond Sword",
         "copies": "3",
-        "demand": [0, 10],
+        "demand": [1, 10],
         "image": "./diasword.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "lapis": "1560",
-            "coins": "1300",
-            "case-bux": "130"
+            "lapis": "852",
+            "coins": "710",
+            "case-bux": "71"
         }
     },
                                                         {
