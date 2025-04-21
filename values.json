@@ -742,7 +742,7 @@
     },
     {
         "name" : "Divine Blessing",
-        "copies": "2"
+        "copies": "2",
         "demand": [2, 10],
         "image": "./AmethystShard.webp",
         "values": {
