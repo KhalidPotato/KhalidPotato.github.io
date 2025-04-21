@@ -741,9 +741,22 @@
         }
     },
     {
-        "name" : "Divine Curse/Blessing",
-        "copies": "3",
-        "demand": [0, 10],
+        "name" : "Divine Blessing",
+        "copies": "2"
+        "demand": [2, 10],
+        "image": "./AmethystShard.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+    {
+        "name" : "Shattered Blessing",
+        "copies": "1",
+        "demand": [1, 10],
         "image": "./AmethystShard.webp",
         "values": {
             "tickets": "O/C",
