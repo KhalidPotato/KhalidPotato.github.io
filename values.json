@@ -15,7 +15,7 @@
     {
         "name": "Steak",
         "copies": "N/A",
-        "demand": [8, 10],
+        "demand": [10, 10],
         "image": "./Steak.webp",
         "values": {
             "tickets": 1,
@@ -54,7 +54,7 @@
         {
         "name": "Golden Carrot",
         "copies": "N/A",
-        "demand": [7, 10],
+        "demand": [8, 10],
         "image": "./GoldenCarrot.webp",
         "values": {
             "tickets": 2,
