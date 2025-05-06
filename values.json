@@ -145,7 +145,7 @@
     {
         "name": "Potatosim Hoe",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [2, 10],
         "image": "./PotatosimHoe.webp",
         "values": {
             "tickets": "N/A",
