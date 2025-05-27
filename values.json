@@ -44,10 +44,10 @@
         "demand": [0, 10],
         "image": "./Egg.webp",
         "values": {
-            "tickets": 200,
-            "keys": "100",
-            "lapis": "12",
-            "coins": "10",
+            "tickets": 60,
+            "keys": "30",
+            "lapis": "10",
+            "coins": "5",
             "case-bux": "1"
         }
     },
