@@ -777,19 +777,6 @@
             "lapis": "24",
             "coins": "20",
             "case-bux": "2"
-        },
-        {
-        "name" : "test",
-        "copies": "N/A",
-        "demand": [1, 10],
-        "image": "./sand.webp",
-        "values": {
-            "tickets": "O/C",
-            "keys": "1",
-            "lapis": "1",
-            "coins": "1",
-            "case-bux": "1"
         }
-
     }
 ]
