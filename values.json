@@ -13,6 +13,19 @@
         }
     },
     {
+        "name": "Test",
+        "copies": "N/A",
+        "demand": [10, 10],
+        "image": "./Ticket.webp",
+        "values": {
+            "tickets": 1,
+            "keys": "N/A",
+            "lapis": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+    {
         "name": "Steak",
         "copies": "N/A",
         "demand": [10, 10],
