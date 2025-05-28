@@ -190,7 +190,7 @@
             "tickets": "O/C",
             "keys": "O/C",
             "lapis": "O/C",
-            "coins": "O/C",
+            "coins": 250,
             "case-bux": "O/C"
         }
     },
