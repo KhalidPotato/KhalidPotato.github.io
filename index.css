@@ -184,10 +184,11 @@ body {
   text-align: center;
   border: 2px solid #7C7C7C;
   border-radius: 20px;
-  background-color: #2f2f2f;
+  background-color: rgba(47, 47, 47, 0.7); /* does this work? No idea */
   color: #fff;
   transition: transform 0.3s, opacity 0.3s;
 }
+
 
 .card:hover {
   transform: scale(1.05);
