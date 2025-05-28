@@ -15,7 +15,7 @@
     {
         "name": "Shadow Glass",
         "copies": 7,
-        "demand": [10, 10],
+        "demand": [3, 10],
         "image": "./ShadowGlass.webp",
         "values": {
             "tickets": "O/C",
