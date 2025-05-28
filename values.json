@@ -93,12 +93,12 @@
     {
         "name": "Withered Rose",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [2, 10],
         "image": "./WitheredRose.png",
         "values": {
-            "tickets": "200",
-            "keys": "100",
-            "lapis": "12",
+            "tickets": "100",
+            "keys": "50",
+            "lapis": "O/C",
             "coins": "10",
             "case-bux": "1"
         }
@@ -119,12 +119,12 @@
     {
         "name": "Nomi's Flower",
         "copies": "N/A",
-        "demand": [6, 10],
+        "demand": [0, 10],
         "image": "./NomisFlower.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
-            "lapis": "120",
+            "lapis": "1200",
             "coins": "100",
             "case-bux": "10"
         }
