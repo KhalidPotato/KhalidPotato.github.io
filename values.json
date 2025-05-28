@@ -233,6 +233,58 @@
             "case-bux": "O/C"
         }
     },
+        {
+        "name": "sniffer eg idk name xd",
+        "copies": "N/A",
+        "demand": [2, 10],
+        "image": "./DMVCARD.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "O/C",
+            "coins": 500,
+            "case-bux": "O/C"
+        }
+    },
+        {
+        "name": "Turtle Egg",
+        "copies": "N/A",
+        "demand": [2, 10],
+        "image": "./DMVCARD.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "O/C",
+            "coins": 500,
+            "case-bux": "O/C"
+        }
+    },
+        {
+        "name": "Mel-Egg",
+        "copies": "N/A",
+        "demand": [2, 10],
+        "image": "./DMVCARD.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "O/C",
+            "coins": 500,
+            "case-bux": "O/C"
+        }
+    },
+        {
+        "name": "Red-Egg",
+        "copies": "N/A",
+        "demand": [2, 10],
+        "image": "./DMVCARD.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "O/C",
+            "coins": 500,
+            "case-bux": "O/C"
+        }
+    },
     {
         "name": "Slime Ball",
         "copies": "13",
