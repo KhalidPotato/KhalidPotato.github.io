@@ -13,19 +13,6 @@
         }
     },
     {
-        "name": "Shadow Glass",
-        "copies": 7,
-        "demand": [3, 10],
-        "image": "./ShadowGlass.webp",
-        "values": {
-            "tickets": "O/C",
-            "keys": "O/C",
-            "lapis": "O/C",
-            "coins": "O/C",
-            "case-bux": "O/C"
-        }
-    },
-    {
         "name": "Steak",
         "copies": "N/A",
         "demand": [10, 10],
@@ -191,6 +178,32 @@
             "keys": "O/C",
             "lapis": "O/C",
             "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+    {
+        "name": "Shadow Glass",
+        "copies": 7,
+        "demand": [3, 10],
+        "image": "./ShadowGlass.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
+        }
+    },
+    {
+        "name": "DMV | FAST HOLDER",
+        "copies": "N/A",
+        "demand": [2, 10],
+        "image": "./DMVCARD.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "O/C",
+            "coins": 500,
             "case-bux": "O/C"
         }
     },
