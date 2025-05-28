@@ -142,6 +142,19 @@
             "case-bux": "O/C"
         }
     },
+        {
+        "name": "Cookie",
+        "copies": "N/A",
+        "demand": [0, 10],
+        "image": "./Cookiee.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "O/C",
+            "coins": "20~ , O/C",
+            "case-bux": "O/C"
+        }
+    },
     {
         "name": "Hammer",
         "copies": "N/A",
