@@ -130,6 +130,19 @@
         }
     },
     {
+        "name": "Feather",
+        "copies": "N/A",
+        "demand": [0, 10],
+        "image": "./NomisFlower.webp",
+        "values": {
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "120",
+            "coins": "idk rn",
+            "case-bux": "O/C"
+        }
+    },
+    {
         "name": "Hammer",
         "copies": "N/A",
         "demand": [0, 10],
