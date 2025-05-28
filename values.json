@@ -10,6 +10,7 @@
             "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
+            "Admin only": "Yes/No/Test"
         }
     },
     {
@@ -306,6 +307,32 @@
         "values": {
             "tickets": "5",
             "keys": "3",
+            "lapis": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Da supa slapa",
+        "copies": "N/A",
+        "demand": [5, 10],
+        "image": "./Debug_Stick.gif",
+        "values": {
+            "tickets": "N/A",
+            "keys": "N/A",
+            "lapis": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+        {
+        "name": "Los pollos chicken...",
+        "copies": "N/A",
+        "demand": [6, 10],
+        "image": "./Debug_Stick.gif",
+        "values": {
+            "tickets": "N/A",
+            "keys": "N/A",
             "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
