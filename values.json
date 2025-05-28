@@ -234,54 +234,54 @@
         }
     },
         {
-        "name": "sniffer eg idk name xd",
+        "name": "Snegg",
         "copies": "N/A",
-        "demand": [2, 10],
-        "image": "./DMVCARD.webp",
+        "demand": [0, 10],
+        "image": "./Sniffer_Egg.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
             "lapis": "O/C",
-            "coins": 500,
+            "coins": "later",
             "case-bux": "O/C"
         }
     },
         {
-        "name": "Turtle Egg",
+        "name": "Turtle-Egg",
         "copies": "N/A",
-        "demand": [2, 10],
-        "image": "./DMVCARD.webp",
+        "demand": [0, 10],
+        "image": "./Turtle_Egg.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
             "lapis": "O/C",
-            "coins": 500,
+            "coins": "later",
             "case-bux": "O/C"
         }
     },
         {
-        "name": "Mel-Egg",
+        "name": "Melegg",
         "copies": "N/A",
-        "demand": [2, 10],
-        "image": "./DMVCARD.webp",
+        "demand": [0, 10],
+        "image": "./Golden_Melon.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
             "lapis": "O/C",
-            "coins": 500,
+            "coins": "later",
             "case-bux": "O/C"
         }
     },
         {
-        "name": "Red-Egg",
+        "name": "Redegg",
         "copies": "N/A",
-        "demand": [2, 10],
-        "image": "./DMVCARD.webp",
+        "demand": [0, 10],
+        "image": "./Red_Apple.webp",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
             "lapis": "O/C",
-            "coins": 500,
+            "coins": "later",
             "case-bux": "O/C"
         }
     },
