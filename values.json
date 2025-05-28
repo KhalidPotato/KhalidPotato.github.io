@@ -195,7 +195,7 @@
         }
     },
     {
-        "name": "DMV | FAST HOLDER",
+        "name": "DMV | FAST HOLDER CARD",
         "copies": "N/A",
         "demand": [2, 10],
         "image": "./DMVCARD.webp",
