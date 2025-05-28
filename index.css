@@ -74,7 +74,7 @@ body {
 }
 
 .alert {
-  background-color: #9D8317;
+  background-color: rgba(255, 0, 0, 0.35); /* transparencyyyyyy */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,8 +86,9 @@ body {
 
 .alert p {
   margin-right: 10px;
-  color: #ffffff;
+  color: #fff;
 }
+
 
 .card-controls {
   display: flex;
