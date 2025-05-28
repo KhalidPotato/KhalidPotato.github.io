@@ -106,7 +106,7 @@
     {
         "name": "Withered Rose",
         "copies": "N/A",
-        "demand": [4, 10],
+        "demand": [3, 10],
         "image": "./WitheredRose.png",
         "values": {
             "tickets": "200",
@@ -226,7 +226,7 @@
         "demand": [1, 10],
         "image": "./MegaTicket.webp",
         "values": {
-            "tickets": "1",
+            "tickets": "2",
             "keys": "N/A",
             "lapis": "N/A",
             "coins": "N/A",
@@ -239,7 +239,7 @@
         "demand": [1, 10],
         "image": "./UltraTicket.webp",
         "values": {
-            "tickets": "1",
+            "tickets": "3",
             "keys": "N/A",
             "lapis": "N/A",
             "coins": "N/A",
@@ -252,8 +252,8 @@
         "demand": [1, 10],
         "image": "./MegaKey.webp",
         "values": {
-            "tickets": "2",
-            "keys": "1",
+            "tickets": "3",
+            "keys": "2",
             "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
@@ -265,8 +265,8 @@
         "demand": [3, 10],
         "image": "./UltraKey.webp",
         "values": {
-            "tickets": "2",
-            "keys": "1",
+            "tickets": "5",
+            "keys": "3",
             "lapis": "N/A",
             "coins": "N/A",
             "case-bux": "N/A"
