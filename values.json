@@ -13,16 +13,16 @@
         }
     },
     {
-        "name": "Test",
-        "copies": "N/A",
+        "name": "Shadow Glass",
+        "copies": 7,
         "demand": [10, 10],
-        "image": "./Ticket.webp",
+        "image": "./ShadowGlass.webp",
         "values": {
-            "tickets": 1,
-            "keys": "N/A",
-            "lapis": "N/A",
-            "coins": "N/A",
-            "case-bux": "N/A"
+            "tickets": "O/C",
+            "keys": "O/C",
+            "lapis": "O/C",
+            "coins": "O/C",
+            "case-bux": "O/C"
         }
     },
     {
@@ -156,7 +156,7 @@
         }
     },
     {
-        "name": "Potatosim Hoe",
+        "name": "Potatoism Hoe",
         "copies": "N/A",
         "demand": [2, 10],
         "image": "./PotatosimHoe.webp",
