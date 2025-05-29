@@ -18,7 +18,7 @@
         "copies": "N/A",
         "demand": [10, 10],
         "image": "./Steak.webp",
-        "rarity": "rare",
+        "rarity": "common",
         "values": {
             "tickets": 1,
             "keys": "N/A",
@@ -32,7 +32,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Egg.webp",
-        "rarity": "epik",
+        "rarity": "rare",
         "values": {
             "tickets": 60,
             "keys": "30",
@@ -46,6 +46,7 @@
         "copies": "N/A",
         "demand": [10, 10],
         "image": "./Key.webp",
+        "rarity": "rare",
         "values": {
             "tickets": 2,
             "keys": "1",
@@ -59,6 +60,7 @@
         "copies": "N/A",
         "demand": [10, 10],
         "image": "./GoldenCarrot.webp",
+        "rarity": "rare",
         "values": {
             "tickets": 2,
             "keys": "1",
@@ -72,6 +74,7 @@
         "copies": "15",
         "demand": [0, 10],
         "image": "./ProVoucher.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -85,6 +88,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./ProVoucher.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -98,6 +102,7 @@
         "copies": "N/A",
         "demand": [2, 10],
         "image": "./WitheredRose.png",
+        "rarity": "common",
         "values": {
             "tickets": "100",
             "keys": "50",
@@ -111,6 +116,7 @@
         "copies": "N/A",
         "demand": [3, 10],
         "image": "./Khaotix.webp",
+        "rarity": "common",
         "values": {
             "tickets": "80",
             "keys": "40",
@@ -124,6 +130,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./NomisFlower.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -137,6 +144,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Feather.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -150,6 +158,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Cookiee.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -163,6 +172,7 @@
         "copies": "N/A",
         "demand": [4, 10],
         "image": "./Hammer.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
@@ -176,6 +186,7 @@
         "copies": "N/A",
         "demand": [2, 10],
         "image": "./PotatosimHoe.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
@@ -188,6 +199,7 @@
         "name": "Potato",
         "copies": "120",
         "demand": [1, 10],
+        "rarity": "epik",
         "image": "./Potato.webp",
         "values": {
             "tickets": "200",
@@ -202,6 +214,7 @@
         "copies": "N/A",
         "demand": [1, 10],
         "image": "./Poisoned.gif",
+        "rarity": "common",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -215,6 +228,7 @@
         "copies": 7,
         "demand": [3, 10],
         "image": "./ShadowGlass.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -228,6 +242,7 @@
         "copies": "N/A",
         "demand": [2, 10],
         "image": "./DMVCARD.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -241,6 +256,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Sniffer_Egg.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -254,6 +270,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Turtle_Egg.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -267,6 +284,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Golden_Melon.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -280,6 +298,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Red_Apple.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -293,6 +312,7 @@
         "copies": "13",
         "demand": [1, 10],
         "image": "./SlimeBall.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "120",
@@ -306,6 +326,7 @@
         "copies": "3",
         "demand": [0, 10],
         "image": "./FakeIron.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -319,6 +340,7 @@
         "copies": "N/A",
         "demand": [1, 10],
         "image": "./MegaTicket.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "2",
             "keys": "N/A",
@@ -332,6 +354,7 @@
         "copies": "N/A",
         "demand": [1, 10],
         "image": "./UltraTicket.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "3",
             "keys": "N/A",
@@ -345,6 +368,7 @@
         "copies": "N/A",
         "demand": [1, 10],
         "image": "./MegaKey.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "3",
             "keys": "2",
@@ -358,6 +382,7 @@
         "copies": "N/A",
         "demand": [3, 10],
         "image": "./UltraKey.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "5",
             "keys": "3",
@@ -371,6 +396,7 @@
         "copies": "N/A",
         "demand": [5, 10],
         "image": "./Debug_Stick.gif",
+        "rarity": "epik",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
@@ -380,10 +406,11 @@
         }
     },
         {
-        "name": "Los pollos chicken...",
+        "name": "Los pollos chicken",
         "copies": "N/A",
         "demand": [6, 10],
         "image": "./Debug_Stick.gif",
+        "rarity": "epik",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
@@ -395,8 +422,9 @@
     {
         "name": "Azreal's Dagger",
         "copies": "N/A",
-        "demand": [3, 10],
+        "demand": [4, 10],
         "image": "./IronSword.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "400",
             "keys": "200",
@@ -408,8 +436,9 @@
     {
         "name": "Portugese Knife Fight",
         "copies": "N/A",
-        "demand": [2, 10],
+        "demand": [3, 10],
         "image": "./IronEnchant.gif",
+        "rarity": "rare",
         "values": {
             "tickets": "200",
             "keys": "100",
@@ -423,6 +452,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./SugarCookie.gif",
+        "rarity": "rare",
         "values": {
             "tickets": "N/A",
             "keys": "800",
@@ -436,6 +466,7 @@
         "copies": "N/A",
         "demand": [5, 10],
         "image": "./WaterBottle.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "N/A",
             "keys": "800",
@@ -449,6 +480,7 @@
         "copies": "N/A",
         "demand": [7, 10],
         "image": "./Brush.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "N/A",
             "keys": "800",
@@ -462,6 +494,7 @@
         "copies": "N/A",
         "demand": [5, 10],
         "image": "./glass.webp",
+        "rarity": "common",
         "values": {
             "tickets": "N/A",
             "keys": "800",
@@ -475,6 +508,7 @@
         "copies": "N/A",
         "demand": [4, 10],
         "image": "./shield.webp",
+        "rarity": "common",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
@@ -488,6 +522,7 @@
         "copies": "35",
         "demand": [3, 10],
         "image": "./Stockcoin.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
@@ -501,6 +536,7 @@
         "copies": "N/A",
         "demand": [1, 10],
         "image": "./Banjo.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
@@ -514,6 +550,7 @@
         "copies": "N/A",
         "demand": [2, 10],
         "image": "./Saddle.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "400",
             "keys": "200",
@@ -527,6 +564,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./String.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -540,6 +578,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Vegetable.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "3",
             "keys": "2",
@@ -553,6 +592,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Fried.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "3",
             "keys": "2",
@@ -566,6 +606,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./BeetroutStew.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "3",
             "keys": "2",
@@ -579,6 +620,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./MushroomStew.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "3",
             "keys": "2",
@@ -592,6 +634,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./CookedCod.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "3",
             "keys": "2",
@@ -605,6 +648,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./HotChocolate.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "8",
             "keys": "4",
@@ -618,6 +662,7 @@
         "copies": "N/A",
         "demand": [2, 10],
         "image": "./BlackCoffee.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "160",
@@ -631,6 +676,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./WheatSeed.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -644,6 +690,7 @@
         "copies": "72",
         "demand": [2, 10],
         "image": "./Sugar.webp",
+        "rarity": "common",
         "values": {
             "tickets": "128",
             "keys": "64",
@@ -657,6 +704,7 @@
         "copies": "N/A",
         "demand": [3, 10],
         "image": "./Totem.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -670,6 +718,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./CocoaBeans.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -683,6 +732,7 @@
         "copies": "14",
         "demand": [1, 10],
         "image": "./Lead.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "N/A",
             "keys": "N/A",
@@ -696,6 +746,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Bowl.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -709,6 +760,7 @@
         "copies": "N/A",
         "demand": [2, 10],
         "image": "./RawCod.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "200",
             "keys": "200",
@@ -722,6 +774,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./TropicalFish.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -735,6 +788,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./RedMushroom.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -748,6 +802,7 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./BrownMushroom.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -761,6 +816,7 @@
         "copies": "3",
         "demand": [2, 10],
         "image": "./FishingRod.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -774,6 +830,7 @@
         "copies": "1",
         "demand": [1, 10],
         "image": "./nametag.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "13800",
             "keys": "6900",
@@ -787,6 +844,7 @@
         "copies": "1",
         "demand": [0, 10],
         "image": "./diaboots.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -800,6 +858,7 @@
         "copies": "2",
         "demand": [0, 10],
         "image": "./diashovel.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -813,6 +872,7 @@
         "copies": "3",
         "demand": [1, 10],
         "image": "./diasword.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -826,6 +886,7 @@
         "copies": "1",
         "demand": [0, 10],
         "image": "./diasword.gif",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -839,6 +900,7 @@
         "copies": "1",
         "demand": [0, 10],
         "image": "./netheritepickaxe.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -852,6 +914,7 @@
         "copies": "1",
         "demand": [0,10],
         "image": "./Loom.png",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -865,6 +928,7 @@
         "copies": "8",
         "demand": [1, 10],
         "image": "./Bone.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -878,6 +942,7 @@
         "copies": "2",
         "demand": [2, 10],
         "image": "./AmethystShard.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -891,6 +956,7 @@
         "copies": "1",
         "demand": [1, 10],
         "image": "./AmethystShard.webp",
+        "rarity": "epik",
         "values": {
             "tickets": "O/C",
             "keys": "O/C",
@@ -904,6 +970,7 @@
         "copies": "N/A",
         "demand": [1, 10],
         "image": "./sand.webp",
+        "rarity": "rare",
         "values": {
             "tickets": "O/C",
             "keys": "200",
