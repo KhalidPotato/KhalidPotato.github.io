@@ -45,6 +45,12 @@ function createCard(data) {
   const card = document.createElement("div");
   card.classList.add("card");
 
+  if (data.rarity === "common") card.classList.add("common-border");
+else if (data.rarity === "rare") card.classList.add("rare-border");
+else if (data.rarity === "epik") card.classList.add("epik-border");
+
+
+
   const name = document.createElement("h2");
   name.textContent = data.name;
   card.appendChild(name);

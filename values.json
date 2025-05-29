@@ -9,7 +9,9 @@
             "keys": "N/A",
             "lapis": "N/A",
             "coins": "N/A",
-            "case-bux": "N/A"
+            "case-bux": "N/A",
+            "rarity": "common"
+
         }
     },
     {
@@ -22,7 +24,8 @@
             "keys": "N/A",
             "lapis": "N/A",
             "coins": "N/A",
-            "case-bux": "N/A"
+            "case-bux": "N/A",
+            "rarity": "rare"
         }
     },
     {
@@ -35,7 +38,8 @@
             "keys": "30",
             "lapis": "10",
             "coins": "5",
-            "case-bux": "1"
+            "case-bux": "1",
+            "rarity": "epik"
         }
     },
     {
