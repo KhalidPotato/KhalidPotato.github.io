@@ -207,7 +207,8 @@ body {
 
 .card:hover {
   transform: translateY(0) scale(1.05);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .value {
@@ -256,18 +257,25 @@ body {
   text-align: center;
 }
 
-.common-border {
-  border: 2px solid #3fa9f5 !important;
-  box-shadow: 0 0 10px #3fa9f5 !important;
+.card.common-border:hover {
+  box-shadow: 0 0 10px #3fa9f5, 0 0 20px #3fa9f5;
+  transform: translateY(0) scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.rare-border {
-  border: 2px solid #b84eff !important;
-  box-shadow: 0 0 10px #b84eff !important;
+.card.rare-border:hover {
+  box-shadow: 0 0 10px #b84eff, 0 0 20px #b84eff;
+  transform: translateY(0) scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.epik-border {
-  border: 2px solid gold !important;
-  box-shadow: 0 0 10px gold !important;
+.card.epik-border:hover {
+  box-shadow: 0 0 10px gold, 0 0 20px gold;
+  transform: translateY(0) scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
