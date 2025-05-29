@@ -43,7 +43,7 @@ body {
   left: 50%;
   background-size: 550px;
   background-position: -100px -100px;
-  opacity: 0.5;
+  opacity: 0.3;
   transform: translate(-50%, -50%) rotate(15deg);
   background-image: url('./background.jpg');
 }
