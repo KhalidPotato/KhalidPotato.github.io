@@ -225,6 +225,8 @@ body {
 
 .value:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .card img {
