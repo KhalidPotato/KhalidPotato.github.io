@@ -187,7 +187,6 @@ body {
   border-radius: 20px;
   background-color: rgba(47, 47, 47, 0.4); /* does this work? No idea */
   color: #fff;
-  transition: transform 0.3s, opacity 0.3s;
 
   /* uh maybe animations?*/
   opacity: 0;
