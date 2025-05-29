@@ -107,7 +107,9 @@ body {
   height: 6.5vh;
   justify-content: center;
   background-color: #2E2E2E;
-  box-sizing: 2px 2px 5px #0D0D0D;
+  box-shadow: 2px 2px 5px #0D0D0D;
+  box-sizing: border-box; /*remove if it doesnt work real*/
+
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
