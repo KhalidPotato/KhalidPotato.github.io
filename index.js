@@ -86,8 +86,14 @@ function createCard(data) {
   demand.textContent = `DEMAND: ${demandVal ?? "N/A"}/${demandMax}`;
   card.appendChild(demand);
 
+  
   cardContainer.appendChild(card);
+
+  setTimeout(() => {
+    card.classList.add("show");
+  }, 10);
 }
+
 
 async function initializeCards() {
   cardContainer.innerHTML = "";

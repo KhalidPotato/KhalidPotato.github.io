@@ -188,6 +188,18 @@ body {
   background-color: rgba(47, 47, 47, 0.4); /* does this work? No idea */
   color: #fff;
   transition: transform 0.3s, opacity 0.3s;
+
+  /* uh maybe animations?*/
+  opacity: 0;
+  transform: translateY(20px);
+  /**/
+
+}
+
+.card.show {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 
