@@ -57,7 +57,7 @@
     {
         "name": "Golden Carrot",
         "copies": "N/A",
-        "demand": [8, 10],
+        "demand": [10, 10],
         "image": "./GoldenCarrot.webp",
         "values": {
             "tickets": 2,
