@@ -223,12 +223,13 @@ body {
   color: #fff;
 }
 
-.value:hover {
+/*.value:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
   cursor: pointer;
   pointer-events: none;
 }
+  */
 
 .card img {
   width: 80px;
