@@ -1,17 +1,16 @@
 [
     {
-        "name": "a",
+        "name": "Ticket",
         "copies": "N/A",
         "demand": [10, 10],
         "image": "./Ticket.webp",
+        "rarity": "common",
         "values": {
             "tickets": 1,
             "keys": "N/A",
             "lapis": "N/A",
             "coins": "N/A",
-            "case-bux": "N/A",
-            "rarity": "common"
-
+            "case-bux": "N/A"
         }
     },
     {
@@ -19,13 +18,13 @@
         "copies": "N/A",
         "demand": [10, 10],
         "image": "./Steak.webp",
+        "rarity": "rare",
         "values": {
             "tickets": 1,
             "keys": "N/A",
             "lapis": "N/A",
             "coins": "N/A",
-            "case-bux": "N/A",
-            "rarity": "rare"
+            "case-bux": "N/A"
         }
     },
     {
@@ -33,13 +32,13 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Egg.webp",
+        "rarity": "epik",
         "values": {
             "tickets": 60,
             "keys": "30",
             "lapis": "10",
             "coins": "5",
-            "case-bux": "1",
-            "rarity": "epik"
+            "case-bux": "1"
         }
     },
     {
