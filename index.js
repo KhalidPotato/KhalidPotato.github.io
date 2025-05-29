@@ -11,11 +11,14 @@ const searchInput = document.getElementById("search-input");
 
 const commaify = (n) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
+let cachedData = [];
+
 async function fetchData() {
+  if (cachedData.length) return cachedData;
   try {
     const response = await fetch("./values.json");
-    const cardData = await response.json();
-    return cardData;
+    cachedData = await response.json();
+    return cachedData;
   } catch (error) {
     console.error("Error loading values.json:", error);
     return [];
