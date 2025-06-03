@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ticket",
+        "name": "test",
         "copies": "N/A",
         "demand": [10, 10],
         "image": "./Ticket.webp",
