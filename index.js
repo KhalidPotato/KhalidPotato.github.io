@@ -98,6 +98,8 @@ else if (data.rarity === "epik") card.classList.add("epik-border");
   
   cardContainer.appendChild(card);
 
+  addCardClickEffect(card);
+
   setTimeout(() => {
     card.classList.add("show");
   }, 10);
@@ -159,3 +161,23 @@ copiesButton.addEventListener("click", () => sortItems("copies"));
 demandButton.addEventListener("click", () => sortItems("demand"));
 
 window.addEventListener("DOMContentLoaded", initializeCards);
+
+function addCardClickEffect(card) {
+  card.addEventListener("click", () => {
+    const isZoomed = card.classList.contains("zoomed");
+
+    if (isZoomed) {
+      
+      card.classList.remove("zoomed");
+      document.querySelectorAll(".card").forEach(c => {
+        c.classList.remove("hide");
+      });
+    } else {
+      
+      document.querySelectorAll(".card").forEach(c => {
+        if (c !== card) c.classList.add("hide");
+      });
+      card.classList.add("zoomed");
+    }
+  });
+}
