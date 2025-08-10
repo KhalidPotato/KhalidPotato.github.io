@@ -7,5 +7,5 @@ IP: Evb0.minehut.gg
 If you want an item to be added message me on discord(@prexxcel)
 
 
-Created and discontinued by Khalid (@ )
+Created and discontinued by Khalid (@ifh5g )
 Continued by pretzel (@prexxcel)
