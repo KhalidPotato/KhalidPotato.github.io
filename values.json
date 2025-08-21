@@ -578,12 +578,12 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Vegetable.webp",
-        "rarity": "epik",
+        "rarity": "common",
         "values": {
-            "tickets": "3",
-            "keys": "2",
+            "tickets": "N/A",
+            "keys": "N/A",
             "lapis": "N/A",
-            "coins": "N/A",
+            "coins": "1",
             "case-bux": "N/A"
         }
     },
@@ -592,12 +592,12 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./Fried.webp",
-        "rarity": "rare",
+        "rarity": "common",
         "values": {
-            "tickets": "3",
-            "keys": "2",
+            "tickets": "N/A",
+            "keys": "N/A",
             "lapis": "N/A",
-            "coins": "N/A",
+            "coins": "1",
             "case-bux": "N/A"
         }
     },
@@ -606,12 +606,12 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./BeetroutStew.webp",
-        "rarity": "epik",
+        "rarity": "common",
         "values": {
-            "tickets": "3",
-            "keys": "2",
+            "tickets": "N/A",
+            "keys": "N/A",
             "lapis": "N/A",
-            "coins": "N/A",
+            "coins": "1",
             "case-bux": "N/A"
         }
     },
@@ -620,12 +620,12 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./MushroomStew.webp",
-        "rarity": "epik",
+        "rarity": "common",
         "values": {
-            "tickets": "3",
-            "keys": "2",
+            "tickets": "N/A",
+            "keys": "N/A",
             "lapis": "N/A",
-            "coins": "N/A",
+            "coins": "1",
             "case-bux": "N/A"
         }
     },
@@ -634,12 +634,12 @@
         "copies": "N/A",
         "demand": [0, 10],
         "image": "./CookedCod.webp",
-        "rarity": "rare",
+        "rarity": "common",
         "values": {
-            "tickets": "3",
-            "keys": "2",
+            "tickets": "N/A",
+            "keys": "N/A",
             "lapis": "N/A",
-            "coins": "N/A",
+            "coins": "1",
             "case-bux": "N/A"
         }
     },
@@ -650,10 +650,10 @@
         "image": "./HotChocolate.webp",
         "rarity": "rare",
         "values": {
-            "tickets": "8",
-            "keys": "4",
+            "tickets": "N/A",
+            "keys": "N/A",
             "lapis": "N/A",
-            "coins": "N/A",
+            "coins": "2",
             "case-bux": "N/A"
         }
     },
@@ -664,11 +664,11 @@
         "image": "./BlackCoffee.webp",
         "rarity": "epik",
         "values": {
-            "tickets": "O/C",
-            "keys": "160",
-            "lapis": "96",
-            "coins": "80",
-            "case-bux": "8"
+            "tickets": "N/A",
+            "keys": "N/A",
+            "lapis": "N/A",
+            "coins": "2",
+            "case-bux": "N/A"
         }
     },
     {
