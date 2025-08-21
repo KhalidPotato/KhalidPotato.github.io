@@ -966,6 +966,20 @@
         }
     },
     {
+        "name" : "Brew of Ancients",
+        "copies": "N/A",
+        "demand": [1, 10],
+        "image": "./brew.png",
+        "rarity": "epik",
+        "values": {
+            "tickets": "N/A",
+            "keys": "N/A",
+            "lapis": "N/A",
+            "coins": "N/A",
+            "case-bux": "N/A"
+        }
+    },
+    {
         "name" : "Sandoony's Gyatt++",
         "copies": "N/A",
         "demand": [1, 10],
